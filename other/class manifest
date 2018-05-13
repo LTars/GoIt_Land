@@ -1,0 +1,18 @@
+
+0-modal
+____
+    modal
+        modal__inner
+            modal__title                        -[MuseoSansCyrl] 900
+            sign-up
+                sign-up__list
+                    sign-up__item
+                        sign-up__label          - Ubuntu Mono Bold, regular
+                            sign-up__fill
+                                sign-up__link   - Ubuntu Mono Bold
+                sign-up__submit                 -[MuseoSansCyrl] 900
+                                                - Myriad Pro regular
+
+____
+
+01-
