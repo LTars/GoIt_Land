@@ -1,0 +1,61 @@
+
+0-modal
+____
+    modal
+        modal__inner
+            modal__title                        -[MuseoSansCyrl] 900
+            sign-up
+                sign-up__list
+                    sign-up__item
+                        sign-up__label          - Ubuntu Mono Bold, regular
+                            sign-up__fill
+                                sign-up__link   - Ubuntu Mono Bold
+                sign-up__submit                 -[MuseoSansCyrl] 900
+                                                - Myriad Pro regular
+
+____
+
+01-header
+____
+    header
+        logo                                    -[MuseoSansCyrl] 900
+            logo_ext                            - Ubuntu Mono Regular
+        <p>                                     - Ubuntu Mono Bold
+        <p <span>>                              -[ProximaNova] regular,extrabold
+        <p <span>>                              -[MuseoSansCyrl] 900
+        header__desc
+            <p>                                 - Ubuntu Mono bold
+            <p>                                 -[ProximaNova] regular
+            <h1 <span>>                         -[MuseoSansCyrl] 900
+            <p>
+        advantage-list
+            advantage-list__item
+                <p>
+        reviews__link
+        <p>
+
+не готово
+
+___
+
+02-switch
+___
+    switch
+        switch__title                       -[MuseoSansCyrl] 900
+            <span>                          -
+        <p <span>>                          -[MuseoSansCyrl] 900, [ProximaNova] extrabld
+        check-list
+            check-list__item
+                check-list__item-title      - Ubuntu Mono Bold
+                check-list__item-desc       - Open Sans Regular
+                    <a> (optional)          - Open Sans extrabld
+
+
+
+
+
+
+
+
+
+
