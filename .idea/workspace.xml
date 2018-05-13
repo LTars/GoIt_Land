@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bb7254-f06c-4814-8e62-9597772fa4f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/class manifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/smartgrid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/build/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/modal.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +19,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="528">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -164,7 +161,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9338000" />
+    <option name="totallyTimeSpent" value="11052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -472,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="528">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
