@@ -50,6 +50,27 @@ ___
                 check-list__item-desc       - Open Sans Regular
                     <a> (optional)          - Open Sans extrabld
 
+___
+
+03-we-can
+___
+    we-can
+        we-can__title                       -[MuseoSansCyrl] 900
+            <span>
+        <p <span>>                          -[ProximaNova] extrabld [MuseoSansCyrl] 900
+        <p <span>>                          - Open Sans ExtraBold
+        <ul>
+            <li>
+                <p>                         - Ubuntu Mono Bold
+                we-can__example
+                <h3>                        -[MuseoSansCyrl] 900
+                <p <span>>                  - Open Sans SemiBold, Regular
+        <p <span>>                          - Ubuntu Mono Bold
+        <p>                                 - Ubuntu Mono Bold
+        sign-up__submit                     - Повторяющийся элемент
+
+___
+
 
 
 
