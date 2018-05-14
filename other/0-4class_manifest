@@ -71,6 +71,22 @@ ___
 
 ___
 
+04-whats-include
+___
+    whats-include
+        whats-include__title                -[MuseoSansCyrl] 900 Повторяющийся элемент
+            <span>
+        whats-include__schedule
+            whats-include__schedule-item
+                <p <span>>                  - Ubuntu Mono Bold
+                <p>                         - Ubuntu Mono Bold
+            <h3>                            -[MuseoSansCyrl] 900 Повторяющийся элемент
+            <ul>
+                <li>
+                    <h4 <span>>             - Open Sans SemiBold, ExtraBold
+                    <ol>
+                        <li>
+                            <p>             - Open Sans Regular
 
 
 
