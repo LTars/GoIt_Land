@@ -1,0 +1,54 @@
+
+%font-source {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+%h2 {
+    font:900 25px 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    & > span {
+        color: $primary-blue;
+    }
+}
+
+%after-h2{
+    content:'';
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    margin: 10px auto;
+    background: $primary-blue;
+}
+
+%text-after-h2 {
+    font-weight: 900;
+    letter-spacing: 1;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+}
+
+%list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+%text-perspective{
+    font: 800 20px 'Ubuntu Mono', monospace;
+}
+
+%list-before {
+        content: '';
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url(../img/list/dot.png) center no-repeat;
+        position: absolute;
+        left: 0;
+        top: -5px;
+}

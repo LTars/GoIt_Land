@@ -1,0 +1,98 @@
+.traning-center__wrapper{
+    @include wrapper(290px, 0 auto);
+}
+
+.training-center{
+    background: 
+    url(../img/bg/bg-10.jpg);
+    padding: 60px 0 0 0;
+    
+    &__title{
+        @extend %h2;
+        color:$h2-learning-color;
+        &::after{
+            @extend %after-h2;
+            display: block;
+            background: $h2-learning-color;
+        }
+    }
+}
+
+.after-title__list{
+    @extend %list;
+}  
+
+.after-title__items{
+    @extend %font-source;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:$second-learning-color;
+    &:nth-of-type(2){
+        color:$primary-blue;
+    }
+
+}
+
+.set-goal__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color:$second-learning-color;
+}
+
+.set-goal__text{
+    font-size: 16px;
+    color:$second-learning-color;
+    font-weight: 600;
+}
+
+.set-goal__list{
+    @extend %list;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-line;
+}
+.set-goal__items{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 11px 0 50px;
+    margin-bottom: 25px;
+    color:$second-learning-color;
+   &::before{
+        @extend %list-before;
+        background: url(../img/list/elips.png) center no-repeat;
+   } 
+   span{
+       font-weight: 800;
+   }
+}
+
+.company__title{
+    font: 600 18px 'Ubuntu mono','monospace';
+    color: $second-learning-color;
+
+}
+
+.company__list{
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.company__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 144px;
+    background: $primary-white;
+    margin-top: 7px;
+    box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.2);
+
+   &:not(:nth-of-type(2n)){
+       margin-right: 7px;
+   }
+    
+}

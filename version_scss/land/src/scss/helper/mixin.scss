@@ -1,0 +1,4 @@
+@mixin wrapper($widht:290px, $margin: 0 auto){
+    width: $widht;
+    margin: $margin;
+}

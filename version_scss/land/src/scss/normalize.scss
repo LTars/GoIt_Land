@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 /**
@@ -139,6 +140,9 @@ sup {
 
 img {
   border-style: none;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Forms
@@ -340,4 +344,8 @@ template {
 
 [hidden] {
   display: none;
+}
+h2 {
+  margin: 0;
+  padding: 0;
 }
