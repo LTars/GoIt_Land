@@ -374,3 +374,147 @@ template {
 [hidden] {
   display: none;
 }
+
+/*
+@include reset();
+
+.container {
+    @include container();
+}
+
+.row {
+    @include row-flex();
+}
+
+.item {
+    @include col();
+}
+
+
+@mixin font-mixin($f-family, $f-size, $color) {
+    font-family: $f-family;
+    font-size: $f-size;
+    color: $color;
+}
+*/
+
+.flex {
+  display: flex;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*
+		Import blocks/sections below
+*/
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(36, 36, 39, 0.84);
+}
+
+.modal__inner {
+  box-sizing: border-box;
+  padding: 50px;
+  width: 468px;
+  height: 540px;
+  background-color: white;
+}
+
+.modal__title {
+  margin-bottom: 65px;
+  text-transform: uppercase;
+}
+
+.modal__title::after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 192px;
+  height: 4px;
+  background-color: #00bcd4;
+}
+
+.sign-up__list {
+  margin: 0 20px 35px;
+  padding: 0;
+  list-style: none;
+}
+
+.sign-up__item {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.sign-up__item:nth-child(4) {
+  justify-content: center;
+}
+
+.sign-up__item:nth-child(4) .sign-up__label {
+  position: relative;
+}
+
+.sign-up__item:nth-child(4) .sign-up__label::before {
+  content: '';
+  border: 3px solid white;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.41);
+  position: absolute;
+  left: -20px;
+  width: 9px;
+  height: 9px;
+}
+
+.sign-up__fill {
+  border: none;
+  border-bottom: 1px solid #242427;
+  width: 240px;
+  outline: none;
+}
+
+.sign-up__fill:checked + .sign-up__label::before {
+  background-color: #00bcd4;
+}
+
+.sign-up__link {
+  color: #242427;
+  text-decoration: none;
+  border-bottom: 2px solid #00bcd4;
+}
+
+.sign-up__submit {
+  width: 320px;
+  height: 70px;
+  border: 1px transparent;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ffc617 0%, #fb0740 100%);
+  box-shadow: 0px 12px 20px 0px rgba(28, 28, 30, 0.21);
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.625;
+  text-shadow: 0px 1px 1px rgba(28, 28, 30, 0.32);
+}
