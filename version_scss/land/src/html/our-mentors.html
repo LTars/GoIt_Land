@@ -1,8 +1,9 @@
 <section class="teachers">
+    <div class="teachers__wrapper">
         <h2 class="teachers__title"><span>_</span>Преподаватели этого курса</h2>
-        <ul class="after-title__list">
-            <li class="after-title__items">умеют донести информацию в понятном</li>
-            <li class="after-title__items">и простом для освоения виде</li>
+        <ul class="title-after__list">
+            <li class="title-after__items">умеют донести информацию в понятном</li>
+            <li class="title-after__items">и простом для освоения виде</li>
         </ul>
         <p class="teachers__text">
             <span>Помогаем перестроить ваше мышление,</span> поддерживаем на каждом этапе обучения, мотивируем, когда вам кажется,
@@ -12,14 +13,24 @@
                 <h3 class="items-title">Back-end</h3>
                 <ul class="card__list">
                     <li class="card__items">
-                        <img class="card__img" src="./img/card-foto/foto-mentor.jpg" alt="foto" width="130" height="133">
+                        <img class="card__img" 
+                        sizes="130px"
+                        height="133"
+                        srcset="
+                        ./img/card-foto/foto-mentor.jpg 1x,
+                        ./img/card-foto/foto-mentor@1-5x.jpg 1.5x,
+                        ./img/card-foto/foto-mentor@2x.jpg 2x,
+                        ./img/card-foto/foto-mentor@3x.jpg 3x"
+                        src="./img/card-foto/foto-mentor.jpg" alt="foto-mentor"  >
+                        <div class="card__items--wrapper">
                         <p>Александр Репета</p>
                         <span>JavaScript разработчик</span>
+                    </div>
                     </li>
                     <li class="card__items">
-                        <ul class="expierence">
-                            <li>опыт работы с</li>
-                            <li>javascript - 5лет</li>
+                        <ul class="expierence__list">
+                            <li class="expierence__items">опыт работы с</li>
+                            <li class="expierence__items">javascript - 5лет</li>
                         </ul>
                     </li>
                     <li class="card__items">
@@ -34,16 +45,26 @@
                 <h3 class="items-title">Front-end</h3>
                 <ul class="card__list">
                     <li class="card__items">
-                        <img class="card__img" src="./img/card-foto/foto-mentor.jpg" alt="foto" width="130" height="133">
+                        <img class="card__img" 
+                        sizes="130px"
+                        height="133"
+                        srcset="
+                        ./img/card-foto/foto-mentor.jpg 1x,
+                        ./img/card-foto/foto-mentor@1-5x.jpg 1.5x,
+                        ./img/card-foto/foto-mentor@2x.jpg 2x,
+                        ./img/card-foto/foto-mentor@3x.jpg 3x"
+                        src="./img/card-foto/foto-mentor.jpg" alt="foto-mentor"  >
+                        <div class="card__items--wrapper">
                         <p>Влад Грибенников</p>
                         <span>Senior FrontEnd developer</span>
+                    </div>
                     </li>
                     <li class="card__items">
-                        <ul class="expierence">
-                            <li>Founder «Easy CRM»</li>
-                            <li>Senior Front-End developer 4+лет;</li>
-                            <li>Опыт менторства 2+;</li>
-                            <li>Выпустил 6 групп Front-End с уровнем удовлетворенности 9,2 из 10</li>
+                        <ul class="expierence__list">
+                            <li class="expierence__items">Founder «Easy CRM»</li>
+                            <li class="expierence__items">Senior Front-End developer 4+лет;</li>
+                            <li class="expierence__items">Опыт менторства 2+;</li>
+                            <li class="expierence__items">Выпустил 6 групп Front-End с уровнем удовлетворенности 9,2 из 10</li>
                         </ul>
                     </li>
                     <li class="card__items">
@@ -56,14 +77,24 @@
                 <h3 class="items-title">Front-end</h3>
                 <ul class="card__list">
                     <li class="card__items">
-                        <img class="card__img" src="./img/card-foto/foto-mentor.jpg" alt="foto" width="130" height="133">
+                        <img class="card__img" 
+                        sizes="130px"
+                        height="133"
+                        srcset="
+                        ./img/card-foto/foto-mentor.jpg 1x,
+                        ./img/card-foto/foto-mentor@1-5x.jpg 1.5x,
+                        ./img/card-foto/foto-mentor@2x.jpg 2x,
+                        ./img/card-foto/foto-mentor@3x.jpg 3x"
+                        src="./img/card-foto/foto-mentor.jpg" alt="foto-mentor"  >
+                        <div class="card__items--wrapper">
                         <p>Геннадий Горбулин</p>
                         <span>Senior FrontEnd developer</span>
+                    </div>
                     </li>
                     <li class="card__items">
-                        <ul class="expierence">
-                            <li>7 лет опыта во web-разработке и </li>
-                            <li>5 лет преподавательского опыта </li>
+                        <ul class="expierence__list">
+                            <li class="expierence__items">7 лет опыта во web-разработке и </li>
+                            <li class="expierence__items">5 лет преподавательского опыта </li>
                         </ul>
                     </li>
                     <li class="card__items">
@@ -74,4 +105,5 @@
             </li>
         </ul>
         <button type="submit">начать обучение на курсе</button>
+    </div>
     </section>

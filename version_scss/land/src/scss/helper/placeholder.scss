@@ -38,6 +38,11 @@
     margin: 0;
 }
 
+%link{
+    text-decoration: none;
+    display: inline-block;
+}
+
 %text-perspective{
     font: 800 20px 'Ubuntu Mono', monospace;
 }
@@ -52,3 +57,10 @@
         left: 0;
         top: -5px;
 }
+
+%flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,107 @@
+.teachers{
+    background: url(../img/bg/bg-10.jpg);
+    padding-top: 170px;
+    position: relative;
+    transform: translateY(-120px);
+    z-index: 100;
+    
+    
+    &__wrapper{
+        @include wrapper(290px, 0 auto);
+        
+    }
+    &__title{
+        @extend %h2;
+        color:$h2-learning-color;
+        &::after{
+            @extend %after-h2;
+            display: block;
+            background: $h2-learning-color;
+        }
+    }
+    &__text{
+        font-weight: 600;
+        color:$second-learning-color;
+        span{
+            font-weight: 900;
+        }
+    }
+    &__list{
+        @extend %list;
+    }
+        
+}
+.title-after__list {
+    @extend %list;
+    width: 269px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.title-after__items{
+    display: inline;
+    text-transform: uppercase;
+    font:900 14px 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    color: $second-learning-color;
+}
+
+.card__list{
+    @extend %list;
+    background: #fff;
+    box-shadow: 0px 32px 35px 0px rgba( 0, 0, 0, 0.19);
+
+}
+
+.card__items{
+    &:first-child{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        border-bottom: 1px solid rgba( 41, 41, 43, 0.19 ); 
+        p{
+           margin: 0;
+           padding: 0;
+            width: 95px;
+            font:600 20px 'Ubuntu Mono', monospace;
+            letter-spacing: 1px;
+            &::after{
+                content: '';
+                display: inline-block;
+                width: 55px;
+                height: 2px;
+                background: $primary-blue;
+                margin: 5px 0;
+            }
+           
+        }
+        span{
+            font:600 14px 'Ubuntu Mono', monospace;
+        }
+          
+    }
+    &--wrapper{
+        box-sizing: border-box;
+        width: 48%;
+    }
+
+    &:nth-of-type(2){    
+        display: flex;
+        align-items: center;
+        min-height: 100px;
+        .expierence__items:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.expierence__list{
+    @extend %list;
+    padding: 20px 15px;
+}
+
+
+
+ 

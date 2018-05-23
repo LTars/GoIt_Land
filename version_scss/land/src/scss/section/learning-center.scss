@@ -1,10 +1,15 @@
+
+.training-center__bg{
+    background: url(../img/bg/bg-10.jpg);
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
 .traning-center__wrapper{
     @include wrapper(290px, 0 auto);
 }
 
 .training-center{
-    background: 
-    url(../img/bg/bg-10.jpg);
     padding: 60px 0 0 0;
     
     &__title{
@@ -77,14 +82,14 @@
     @extend %list;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
+    
     
 
 }
 
 .company__items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     width: 141px;
     height: 144px;
     background: $primary-white;
@@ -95,4 +100,98 @@
        margin-right: 7px;
    }
     
+}
+.company__text{
+    padding-left: 20px;
+    font: 400 16px "ubuntu mono", monospace;
+    color: $second-learning-color;
+    span {
+        font-weight: 700;
+    }
+}
+
+//наши достижения 
+
+.our-pride{
+    
+    padding-top: 50px;
+    position: relative;
+
+    &__title{
+        text-align: center;
+        width: 170px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        @extend %font-source;
+        font-weight: 800;
+        font-size: 17px;
+        color:$second-learning-color;
+        margin-bottom: 20px;
+        &::before {
+            @include before-hr();
+            margin-bottom: 10px;
+        }
+    }
+    &__list{
+        @include wrapper(290px, 0 auto);
+        @extend %list;
+        position: relative;
+        z-index:200 ; 
+    }
+    &__items{
+        box-sizing: border-box;
+        height: 388px;
+        padding: 20px 5px 15px 30px;
+        box-shadow:0px 11px 10px 0px rgba( 0, 0, 0, 0.11 );
+        background: url(../img/bg/bg-grade-1.png) no-repeat right, #fff;
+        background-position-x: -60px;
+        &:nth-of-type(2){
+            background: url(../img/bg/bg-grade-2.png) no-repeat left,#fff;
+            background-size: contain;
+            background-position: 0 32px;
+            
+        }
+        &:nth-of-type(3){
+            background: url(../img/bg/bg-grade-3.png) no-repeat left,#fff;
+        }
+       
+    }
+    &__link {
+        @extend %link; 
+        @extend %flex;
+        width: 125px;
+        height: 28px;
+        font:600 18px 'Ubuntu mono', monospace;
+        color:$primary-blue;
+        background: $second-learning-color;
+    }
+    &__subtitle{
+        font:800 14px 'Open Sans', sans-serif;
+        color: $second-learning-color;
+        text-transform: uppercase;
+        letter-spacing:1px;
+        
+    }
+    &__items--wrapper{
+        @extend %flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        height: 248px;
+
+    }
+    &__img{
+        margin-right: 5px;
+    }
+
+    &__items:not(:first-child) .our-pride__items--wrapper{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        >p{
+            width: 52%;
+            padding-bottom: 20px;
+        }
+        
+    }
+
 }
