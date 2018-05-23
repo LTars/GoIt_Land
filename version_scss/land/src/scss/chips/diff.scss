@@ -1,0 +1,101 @@
+.whats_diff {
+  padding: 56px 14px;
+  background-color: $section13-background;
+}
+
+.whats_diff_main_title {
+  @extend %title;
+  width: 254px;
+  font-size: 25px;
+  line-height: 30px;
+  color: $header-color;
+  margin-bottom: 56px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 520px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 52px;
+  }
+}
+
+.whats_diff_title {
+  @extend %paragraph;
+  @extend %content;
+  width: 282px;
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 24px;
+  color: $header-color;
+  font-weight: 700;
+  margin-bottom: 20px;
+  &::after {
+    @extend %pseudo;
+    width: 80px;
+    height: 2px;
+    background-color: $section13-overlay;
+    margin-top: 7px;
+  }
+}
+
+.whats_diff_paragraph {
+  @extend %paragraph;
+  @extend %content;
+  width: 280px;
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 24px;
+  color: $header-color;
+}
+
+.whats_diff_paragraph--first {
+  margin-bottom: 25px;
+}
+
+.whats_diff_paragraph--second {
+  margin-bottom: 48px;
+}
+
+.whats_diff_list {
+  @extend %list;
+  margin-bottom: 24px;
+}
+
+.whats_diff_item {
+  @extend %content;
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 24px;
+  color: $header-color;
+  width: 290px;
+  padding-left: 40px;
+  position: relative;
+  &:not(:nth-last-child(-n+1)) {
+    margin-bottom: 16px;
+  }
+  &::before {
+    content: ' \25CF';
+    font-size: 50px;
+    position: absolute;
+    left: 0px;
+  }
+}
+
+.whats_diff_descr {
+  @extend %paragraph;
+  @extend %content;
+  width: 280px;
+  font-family: $main-font;
+  line-height: 24px;
+  font-size: 14px;
+  color: $header-color;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 10px;
+  border-top: 2px solid $main-font;
+  margin-bottom: 14px;
+}
+
+.whats_diff_span {
+  font-weight: 700;
+}

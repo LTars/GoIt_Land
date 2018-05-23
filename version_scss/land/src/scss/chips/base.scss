@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.title_span {
+  display: inline-block;
+  width: 16px;
+  height: 4px;
+  background-color: $main-blue;
+}
