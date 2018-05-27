@@ -1,5 +1,6 @@
 .modal {
-	display:          flex;
+	//display:          flex;
+	display:          none;
 	justify-content:  center;
 	align-items:      center;
 	position:         fixed;
@@ -67,7 +68,7 @@
 	border:        none;
 	border-bottom: 1px solid rgb(36, 36, 39);
 	width:         240px;
-	outline: none;
+	outline:       none;
 	&:checked + .sign-up__label::before {
 		background-color: $main-blue;
 	}
