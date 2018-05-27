@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Museo sans cyrl';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/museosanscyrl_300.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Museo sans cyrl';
+  font-style: bold;
+  font-weight: 900;
+  src: url('../fonts/museosanscyrl_900.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Open sans';
+  font-style: bold;
+  font-weight: 900;
+  src: url('../fonts/opensans-extrabold.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Open sans semibold';
+  font-style: semibold;
+  font-weight: 700;
+  src: url('../fonts/opensans-semibold.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: extrabold;
+  font-weight: 900;
+  src: url('../fonts/ProximaNova-Extrabld.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: regular;
+  font-weight: 400;
+  src: url('../fonts/ProximaNova-Extrabld.woff') format("woff");
+}
+
+@font-face {
+  font-family: 'Ubuntu mono';
+  font-style: bold;
+  font-weight: 900;
+  src: url('../fonts/ubuntumono-bold.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Ubuntu mono';
+  font-style: regular;
+  font-weight: 400;
+  src: url('../fonts/ubuntumono-regular.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('Roboto Light.eot');
+  src: url('Roboto Light.eot?#iefix') format('embedded-opentype'), url('Roboto Light.woff2') format('woff2'), url('Roboto Light.woff') format('woff'), url('Roboto Light.ttf') format('truetype'), url('Roboto Light.svg#Roboto Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url('Roboto Black.eot');
+  src: url('Roboto Black.eot?#iefix') format('embedded-opentype'), url('Roboto Black.woff2') format('woff2'), url('Roboto Black.woff') format('woff'), url('Roboto Black.ttf') format('truetype'), url('Roboto Black.svg#Roboto Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044;
+}
