@@ -1,0 +1,5 @@
+@mixin font-mixin($f-family, $f-size, $color) {
+  font-family: $f-family;
+  font-size: $f-size;
+  color: $color;
+}

@@ -1,0 +1,136 @@
+.what-if-you-dont {
+}
+
+.what-if-you-dont__title {}
+
+.what-if-you-dont__img {
+  box-shadow: 0px 31px 24px 0px rgba(0, 0, 0, 0.09);
+}
+
+.what-if-you-dont__img-block {
+  display: block;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  width: 290px;
+  height: 383px;
+  margin-bottom: 48px;
+}
+
+.what-if-you-dont__img-block::before {
+  content: "";
+  display: block;
+  width: 286px;
+  height: 388px;
+  background-color: rgb(0, 188, 212);
+  box-shadow: 0px 31px 24px 0px rgba(0, 0, 0, 0.09);
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: -1;
+}
+
+.what-if-you-dont__txt {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(36, 36, 39);
+  line-height: 1.857;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.what-if-you-dont__txt-bold {
+  font-weight: 600;
+}
+
+.what-if-you-dont__title-no {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(36, 36, 39);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.what-if-you-dont__txt-no {
+  margin-top: 0;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(36, 36, 39);
+  font-weight: bold;
+  line-height: 1.429;
+  text-align: left;
+}
+
+.what-if-you-dont__txt-block {
+  background-image: url(/img/what-if-you-dont@1.5x.png);
+  width: 238px;
+  height: 115px;
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.what-if-you-dont__txt-yes {
+  width: 170px;
+  height: 85px;
+  font-size: 14px;
+  font-family: "UbuntuMono";
+  color: rgb(36, 36, 39);
+  font-weight: bold;
+  line-height: 1.714;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .what-if-you-dont {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 788px) {}
+
+@media screen and (min-width: 768px) {
+  .what-if-you-dont {
+    width: 690px;
+    margin: 0 auto;
+  }
+
+  .overlay__neudachniki {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .overlay__discript {
+    width: 330px;
+  }
+}
+
+@media (min-width: 992px) {
+  .what-if-you-dont {
+    width: 1147px;
+  }
+  
+  .overlay__discript {
+    width: 574px;
+  }
+}
+  

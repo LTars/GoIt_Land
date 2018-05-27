@@ -1,0 +1,110 @@
+.faq {
+  width: 290px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 55px;
+}
+
+.faq__item {
+  display: block;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  background-color: #ededed;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #242427;
+  text-align: left;
+  margin-bottom: 10px;
+  width: 290px;
+}
+
+.faq__item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.faq-item__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.143;
+  display: block;
+  height: 80px;
+  padding-left: 15px;
+  margin: 0;
+}
+
+.faq-item__txt {
+  display: none;
+  line-height: 1.714;
+  background-color: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 25px 50px 35px 15px;
+  margin: 0;
+}
+
+/*заменить ли ховер на по нажатию и поставит релатив/абсолют*/
+
+.faq__item:hover > .faq-item__txt {
+  display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+}
+
+@media (min-width: 320px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 788px) {
+}
+
+@media screen and (min-width: 768px) {
+  .faq {
+    padding-top: 80px;
+    width: 690px;
+  }
+
+  .title-wrapper {
+    width: 330px;
+    margin-left: 0;
+  }
+
+  .faq__title {    
+    margin-bottom: 40px;
+  }
+
+  .faq__title-txt {     
+    text-align: right;
+    width: 330px;
+    margin-right: 0;
+    margin-bottom: 125px;
+  }
+   
+  .faq__item {
+    width: 690px;
+  }
+
+  .faq-item__title {
+    height: 88px;
+  }
+}
+
+@media (min-width: 992px) {
+  .title-wrapper {
+    width: 465px;
+  }
+
+  .faq__title {
+    width: 246px;    
+    text-align: left;    
+    margin-left: 0;    
+    margin-bottom: 48px;
+  }
+
+  .faq__item {
+    width: 660px;
+  }
+
+  .faq-item__title {
+    height: 90px;
+  }
+}

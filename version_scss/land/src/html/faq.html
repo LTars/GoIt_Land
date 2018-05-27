@@ -1,25 +1,40 @@
 <section class="faq">
-    <h3 class="faq__title"><span>_</span>Частые вопросы,
-        <span>которые нам задают до покупки курса</span>
-    </h3>
-    <!--"_" сделать через before? он повторятся на многих страницах - сделать общим?-->
-    <ul class="faq__list">
-        <!--Тут открывающиеся списки (что в них должно быть написано)(position: relative)-->
-        <li class="faq__item faq-list__item">
-            <h4 class="faq-item__title">а можно оплатить частями</h4>
-            <p class="faq-item__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam!</p>
-        </li>
-        <li class="faq__item faq-list__item">
-            <h4 class="faq-item__title">9 месяцев, чего так долго?</h4>
-            <p class="faq-item__txt-sub">Это оптимальный срок обучения для выполнения всех проектов и полного усвоения материала</p>
-        </li>
-        <li class="faq__item faq-list__item">
-            <h4 class="faq-item__title">Как проходит обучение?</h4>
-            <p class="faq-item__txt-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam!</p>
-        </li>
-        <li class="faq__item faq-list__item">
-            <h4 class="faq-item__title">Что делать, если я пропустил занятие?</h4>
-            <p class="faq-item__txt-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam!</p>
-        </li>
-    </ul>
+  <!--
+  <h3 class="faq__title title">
+    <span class="faq__title-before title-before">_</span>Частые вопросы,
+    <span class="faq__title-after title-after">
+      которые нам задают</span>
+    <span class="faq__title-after title-after">
+      до покупки курса</span>
+  </h3>
+  -->
+  <div class="title-wrapper">
+    <h3 class="faq__title title">
+      <span class="faq__title-before title-before">_</span>Частые вопросы,</h3>
+    <p class="faq__title-txt title__txt">
+      которые нам задают
+      <span class="faq__txt-after title__txt-after">
+        до покупки курса</span>
+    </p>
+  </div>
+
+  <ul class="faq__list list">
+    <!--Тут выпадающие списки (что в них должно быть написано)(position: relative), открываться по нажатию или наведению, как выровнять по центру-->
+    <li class="faq__item">
+      <h4 class="faq-item__title">а можно оплатить частями?</h4>
+      <p class="faq-item__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam!</p>
+    </li>
+    <li class="faq__item">
+      <h4 class="faq-item__title">9 месяцев, чего так долго?</h4>
+      <p class="faq-item__txt">Это оптимальный срок обучения для выполнения всех проектов и полного усвоения материала</p>
+    </li>
+    <li class="faq__item">
+      <h4 class="faq-item__title">Как проходит обучение?</h4>
+      <p class="faq-item__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam!</p>
+    </li>
+    <li class="faq__item">
+      <h4 class="faq-item__title">Что делать, если я пропустил занятие?</h4>
+      <p class="faq-item__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam!</p>
+    </li>
+  </ul>
 </section>

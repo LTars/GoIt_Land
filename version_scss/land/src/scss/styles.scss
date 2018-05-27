@@ -1,4 +1,18 @@
 /*
    Import partials below
 */
+@import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'helpers/mixins';
+@import 'helpers/extras';
 @import 'normalize';
+@import 'base';
+
+@import 'components/faq';
+@import 'components/how-to-know';
+@import 'components/what-if-you-dont';
+@import 'components/become-strong-jun';
+@import 'components/form';
+@import 'components/footer';
+
+

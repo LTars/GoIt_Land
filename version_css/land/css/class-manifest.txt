@@ -1,0 +1,211 @@
+title   
+    title-before
+    tile-after
+body
+img
+link
+list
+button
+
+
+
+17-faq
+___
+    faq 
+        faq__title
+            faq__title-before
+            faq__title-after
+        faq__list
+            faq__item
+                faq-item__title
+                faq-item__txt
+
+
+18-how-to-know
+___
+    how-to-know
+        how-to-know__title
+            how-to-know__title-before
+        how-to-know__wrapper
+            how-to-know__block
+                how-to-know-list__title
+                    how-to-know-list__title-span
+                how-to-know__block-list
+                    how-to-know__list
+                        how-to-know__item
+            how-to-know__block
+                how-to-know-list__title
+                    how-to-know-list__title-span
+                how-to-know__block-list
+                    how-to-know__list/how-to-know__list-no
+                        how-to-know__item
+        how-to-know__txt
+        how-to-know__btn
+
+
+19-what-if-you-dont
+___
+    what-if-you-dont
+        what-if-you-dont__title
+    what-if-you-dont__img-block
+        what-if-you-dont__img
+    what-if-you-dont__txt
+        what-if-you-dont__txt-bold
+    what-if-you-dont__title-no
+    what-if-you-dont__txt-no
+    what-if-you-dont__txt-block
+        what-if-you-dont__txt-yes
+
+        
+20-become-strong-jun
+___
+    become-strong-jun
+        become-strong-jun__title
+        become-strong-jun__team
+            become-strong-jun-team__wrapper
+                become-strong-jun-team__img
+                become-strong-jun__title-team
+                become-strong-jun__txt-team
+            become-strong-jun-team__wrapper-skills
+                become-strong-jun__title-skills
+                become-strong-jun__block-skills
+                    become-strong-jun__list-skills
+                        become-strong-jun__item-skills
+                            become-strong-jun__item-span
+                become-strong-jun__title-skills
+                become-strong-jun__block-soft
+                    become-strong-jun__list-soft
+                        become-strong-jun__item-soft
+    form
+        form__title
+            form__title-span
+        form__list
+            form__item 
+                form__item-input
+                form-item__txt
+                    form-item__txt-span
+        form__btn
+
+
+21-footer
+___
+    footer  
+        footer__title
+        footer__link-tel
+        footer_btn
+        footer-social__list
+            social-item
+                social-item__link-facebook
+                    social-item__icon-facebook
+            social-item
+                social-item__link-twitter
+                    social-item__icon-twitter
+        footer__txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0-modal
+____
+    modal
+        modal__inner
+            modal__title                        -[MuseoSansCyrl] 900
+            sign-up
+                sign-up__list
+                    sign-up__item
+                        sign-up__label          - Ubuntu Mono Bold, regular
+                            sign-up__fill
+                                sign-up__link   - Ubuntu Mono Bold
+                sign-up__submit                 -[MuseoSansCyrl] 900
+                                                - Myriad Pro regular
+
+____
+
+01-header
+____
+    header
+        logo                                    -[MuseoSansCyrl] 900
+            logo_ext                            - Ubuntu Mono Regular
+        <p>                                     - Ubuntu Mono Bold
+        <p <span>>                              -[ProximaNova] regular,extrabold
+        <p <span>>                              -[MuseoSansCyrl] 900
+        header__desc
+            <p>                                 - Ubuntu Mono bold
+            <p>                                 -[ProximaNova] regular
+            <h1 <span>>                         -[MuseoSansCyrl] 900
+            <p>
+        advantage-list
+            advantage-list__item
+                <p>
+        reviews__link
+        <p>
+
+не готово
+
+___
+
+02-switch
+___
+    switch
+        switch__title                       -[MuseoSansCyrl] 900
+            <span>                          -
+        <p <span>>                          -[MuseoSansCyrl] 900, [ProximaNova] extrabld
+        check-list
+            check-list__item
+                check-list__item-title      - Ubuntu Mono Bold
+                check-list__item-desc       - Open Sans Regular
+                    <a> (optional)          - Open Sans extrabld
+
+___
+
+03-we-can
+___
+    we-can
+        we-can__title                       -[MuseoSansCyrl] 900
+            <span>
+        <p <span>>                          -[ProximaNova] extrabld [MuseoSansCyrl] 900
+        <p <span>>                          - Open Sans ExtraBold
+        <ul>
+            <li>
+                <p>                         - Ubuntu Mono Bold
+                we-can__example
+                <h3>                        -[MuseoSansCyrl] 900
+                <p <span>>                  - Open Sans SemiBold, Regular
+        <p <span>>                          - Ubuntu Mono Bold
+        <p>                                 - Ubuntu Mono Bold
+        sign-up__submit                     - Повторяющийся элемент
+
+___
+
+04-whats-include
+___
+    whats-include
+        whats-include__title                -[MuseoSansCyrl] 900 Повторяющийся элемент
+            <span>
+        whats-include__schedule
+            whats-include__schedule-item
+                <p <span>>                  - Ubuntu Mono Bold
+                <p>                         - Ubuntu Mono Bold
+            <h3>                            -[MuseoSansCyrl] 900 Повторяющийся элемент
+            <ul>
+                <li>
+                    <h4 <span>>             - Open Sans SemiBold, ExtraBold
+                    <ol>
+                        <li>
+                            <p>             - Open Sans Regular
+
+

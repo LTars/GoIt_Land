@@ -1,24 +1,22 @@
-@include reset();
-
+/*@include reset();
 .container {
-    @include container();
+  @include container();
 }
-
+*/
 .row {
-    @include row-flex();
+  @include row-flex();
 }
 
 .item {
-    @include col();
+  @include col();
 }
 
-
 @mixin font-mixin($f-family, $f-size, $color) {
-    font-family: $f-family;
-    font-size: $f-size;
-    color: $color;
+  font-family: $f-family;
+  font-size: $f-size;
+  color: $color;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
