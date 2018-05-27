@@ -1,4 +1,33 @@
 .header {
-	background-color: rgb(43, 42, 47);
+	margin: auto;
+	padding:  30px 20px;
+	background-color: $dark-smoke;
 	height:           550px;
+	font-family: "Ubuntu mono", sans-serif;
+	color: $white;
+}
+
+.logo {
+	padding: 15px 50px;
+	background: url("../img/logo.png") no-repeat;
+	font-size: 0;
+}
+
+.header__text {
+}
+
+.text--blue {
+	padding: 4px 0;
+	width: 152px;
+	
+	color: $main-blue;
+	border-bottom: 1px solid $main-blue;
+}
+
+.text--smoke2 {
+	color: $light-smoke2;
+}
+
+.logo__ext {
+	display: none;
 }
