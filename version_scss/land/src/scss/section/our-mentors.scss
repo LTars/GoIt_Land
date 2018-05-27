@@ -28,6 +28,7 @@
     }
     &__list{
         @extend %list;
+        margin-bottom: 45px;
     }
         
 }
@@ -43,7 +44,8 @@
 .title-after__items{
     display: inline;
     text-transform: uppercase;
-    font:900 14px 'Source Sans Pro', sans-serif;
+    @extend %font-source;
+    font-weight: 900;
     letter-spacing: 1px;
     color: $second-learning-color;
 }
@@ -91,17 +93,87 @@
         display: flex;
         align-items: center;
         min-height: 100px;
-        .expierence__items:not(:last-child){
-            margin-bottom: 20px;
+        
+    }
+    &:last-of-type{
+        box-sizing: border-box;
+        max-height: 134px;
+        padding: 30px  20px;
+        background: #F0F0F0;
+        span {
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            @extend %font-source;
+            font-weight: 900;
+            color:$second-learning-color;
+
+        }
+        p{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font:600 13px 'Ubuntu mono', monospace;
         }
     }
+
 }
 
 .expierence__list{
     @extend %list;
-    padding: 20px 15px;
+    padding: 30px 20px;
+    font-weight: 600;
+    color:$second-learning-color;
 }
 
+.teachers__items:nth-of-type(2) .expierence__items:not(:last-child){
+    margin-bottom: 20px;
+    
+}
 
+.items-title{
+    position: relative;
+    text-align: right;
+    font:600 24px 'Ubuntu mono', monospace;
+    color:$second-learning-color;
 
+    
+    &::after{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background: $second-learning-color;
+        left: 79px;
+        top:18px
+    }
+}
  
+.teachers__items:first-child {
+    .card__items:last-child span{
+        margin-bottom: 20px;
+    }
+    .items-title::after{
+    left: 88px;
+    }
+}
+.teachers__items:not(:last-child){
+    margin-bottom: 50px;
+}
+
+.teachers__button{
+    @extend %button;
+    width: 290px;
+    height: 56px;
+    box-shadow: 0 12px 20px 0px rgba(28,28,30, 0.21);
+    background:linear-gradient(to right, #ffc617, #fb0740);
+    border-radius: 5px;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+    @extend %font-source;
+    font-weight: 900;
+    color:$primary-white;
+    text-shadow: 1px 1px rgba(28,28,30, 0.32);
+}

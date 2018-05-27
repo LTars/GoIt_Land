@@ -1,0 +1,88 @@
+.reviews{
+
+&__wrapper{
+    @include wrapper();
+  
+    }
+
+&__title {
+    @extend %h2;
+    color:$second-learning-color;
+    &::after{
+        @extend %after-h2;
+        background: $second-learning-color;
+    }
+}
+&__list{
+    @extend %list;
+    margin-bottom: 50px;
+
+}
+&__items{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px 11px 0 50px;
+    margin-bottom: 25px;
+    color:$second-learning-color;
+   &::before{
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: 3px;  
+        width: 25px;
+        height: 25px;
+        border: 3px solid #fff;
+        background: $primary-blue;
+        border-radius: 50%;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.21);
+     
+   } 
+   span{
+    font-weight: 900;
+}
+}
+&__text {
+    font:700 18px 'Ubuntu Mono' monospace;
+    color:$second-learning-color;
+}
+}
+.after-title-reviews__list{
+    @extend %list;
+    width: 269px;
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.after-title-reviews__items{
+    @extend %font-source;
+    font-weight: 900;
+    display: inline;
+    text-transform: uppercase;
+    color: $second-learning-color;   
+}
+
+.video-review__list{
+    @extend %list;
+    margin-bottom: 65px;
+}
+
+.video-review__items{
+    display: inline-block;
+    height: 224px;
+box-shadow: 0 15px 20px 0 rgba($color: #000000, $alpha: 0.19);
+    &:not(:last-child){
+        margin-bottom: 20px;
+    } 
+    
+}
+
+
+
+
+
+
+
+
+
