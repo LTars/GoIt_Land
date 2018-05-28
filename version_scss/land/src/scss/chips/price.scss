@@ -17,21 +17,26 @@
       z-index: -1;
     }
   }
-  @media (min-width: 1149px) {
+  @media (min-width: 1150px) {
     padding: 300px 0px 110px;
-    background-color: $section14-backgroundlg;
-    position: relative;
-    z-index: 1;
-    &::before {
-      content: '';
-      display: block;
-      width: 100%;
-      height: 32%;
-      background-color: $sect14-overlaylgcolor;
-      position: absolute;
-      bottom: 0px;
-      z-index: -1;
-    }
+    background-image: url('../../img/14-price_backgr.jpg');
+    background-repeat: no-repeat;
+    // background-color: $section14-backgroundlg;
+   
+    // position: relative;
+    // opacity: 0.9;
+    // z-index: 1;
+    // &::before {
+    //   content: '';
+    //   display: block;
+    //   width: 100%;
+    //   height: 32%;
+    //   background-color: $sect14-overlaylgcolor;
+      
+    //   position: absolute;
+    //   bottom: 0px;
+    //   z-index: -1;
+    // }
   }
 }
 
