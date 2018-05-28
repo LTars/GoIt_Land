@@ -1,0 +1,65 @@
+.switch {
+	box-sizing:  border-box;
+	margin:      0 auto;
+	padding:     0 15px;
+	width:       320px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	@media screen and (max-width: 340px) {
+		width: 300px;
+	}
+}
+
+.switch__title {
+	text-transform: uppercase;
+	text-align:     center;
+}
+
+.switch__title::before {
+	display:      inline-block;
+	content:      '_';
+	color: $main-blue;
+}
+
+.switch__title::after {
+	display: block;
+	content: '';
+	margin: 15px auto;
+	width:            150px;
+	height:           2px;
+	background-color: $dark-smoke;
+}
+
+.switch__title--ext {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+}
+
+.check-list__item-title {
+	margin: 0 auto 30px;
+	font-family: "Ubuntu mono";
+	font-size:   18px;
+}
+
+.check-list__item-desc {
+	margin: 0;
+}
+
+.check-list__item-title:before {
+	display:      inline-block;
+	position: relative;
+	top: 20px;
+	content:      '';
+	margin-right: 5px;
+	width:        37px;
+	height:       44px;
+}
+
+.check-list__item:nth-child(1) .check-list__item-title:before {background: url("../img/decor/hook-1.png") no-repeat right}
+.check-list__item:nth-child(2) .check-list__item-title:before {background: url("../img/decor/hook-2.png") no-repeat right}
+.check-list__item:nth-child(3) .check-list__item-title:before {background: url("../img/decor/hook-3.png") no-repeat right}
+.check-list__item:nth-child(4) .check-list__item-title:before {background: url("../img/decor/hook-4.png") no-repeat right}
+.check-list__item:nth-child(5) .check-list__item-title:before {background: url("../img/decor/hook-5.png") no-repeat right}
+
+
