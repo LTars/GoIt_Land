@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bb7254-f06c-4814-8e62-9597772fa4f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/switch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/blocks/switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/blocks/switch.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +27,8 @@
           <file leaf-file-name="switch.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/switch.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+                <state relative-caret-position="352">
+                  <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -45,8 +40,8 @@
           <file leaf-file-name="switch.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/switch.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+                <state relative-caret-position="572">
+                  <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -54,8 +49,8 @@
           <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="110">
+                  <caret line="5" column="13" selection-start-line="5" selection-end-line="5" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -267,12 +262,12 @@
       <workItem from="1526327496937" duration="605000" />
       <workItem from="1526471904073" duration="8698000" />
       <workItem from="1527407072126" duration="588000" />
-      <workItem from="1527485006941" duration="8883000" />
+      <workItem from="1527485006941" duration="14115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49464000" />
+    <option name="totallyTimeSpent" value="54696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -522,13 +517,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/modal.scss" />
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -573,15 +561,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/switch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+        <state relative-caret-position="352">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/switch.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="572">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
         </state>
       </provider>
     </entry>

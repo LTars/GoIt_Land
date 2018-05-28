@@ -8,11 +8,21 @@
 	@media screen and (max-width: 340px) {
 		width: 300px;
 	}
+	@media screen and (min-width: 768px){
+		padding: 0 30px;
+		width: 750px;
+		height: 630px;
+	}
 }
 
 .switch__title {
 	text-transform: uppercase;
 	text-align:     center;
+	@media screen and (min-width: 768px) {
+		margin: 0;
+		width: 270px;
+		text-align: left;
+	}
 }
 
 .switch__title::before {
@@ -22,18 +32,61 @@
 }
 
 .switch__title::after {
-	display: block;
-	content: '';
-	margin: 15px auto;
+	display:          block;
+	content:          '';
+	margin:           15px auto;
 	width:            150px;
 	height:           2px;
 	background-color: $dark-smoke;
+	@media screen and (min-width: 768px) {
+		position: relative;
+		top: 43px;
+		margin: 0;
+		width: 320px;
+		height: 2px;
+	}
 }
 
 .switch__title--ext {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 900;
+	line-height: 24px;
+	@media screen and (min-width: 768px) {
+		margin-left: 70px;
+		width: 250px;
+		text-align: right;
+		
+		& .text--blue {
+			background-color: $header-color;
+			padding: 0 3px;
+			//width: 85px;
+			//height: 23px;
+		}
+	}
+}
+
+.check-list {
+	@media screen and (min-width: 768px){
+		position: relative;
+		top: -185px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap-reverse;
+		flex-direction: row-reverse;
+	}
+}
+
+.check-list__item {
+	@media screen and (min-width: 768px) {
+		width: 320px;
+		
+		&:nth-child(1) {order: 5;}
+		&:nth-child(2) {order: 4;}
+		&:nth-child(3) {order: 3;}
+		&:nth-child(4) {order: 2;}
+		&:nth-child(5) {order: 1;}
+	}
 }
 
 .check-list__item-title {
@@ -44,6 +97,7 @@
 
 .check-list__item-desc {
 	margin: 0;
+	line-height: 22px;
 }
 
 .check-list__item-title:before {
