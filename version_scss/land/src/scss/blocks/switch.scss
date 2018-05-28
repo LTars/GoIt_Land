@@ -13,6 +13,21 @@
 		width: 750px;
 		height: 630px;
 	}
+	@media screen and (min-width: 1148px) {
+		position: relative;
+		width: 1148px;
+		height: 864px;
+		font-size: 18px;
+		&::before {
+			position: absolute;
+			left: -377px;
+			display:          block;
+			content:          '';
+			width: 327px;
+			height: 313px;
+			background: url("../img/decor/switch_bg.jpg") no-repeat;
+		}
+	}
 }
 
 .switch__title {
@@ -22,6 +37,10 @@
 		margin: 0;
 		width: 270px;
 		text-align: left;
+	}
+	@media screen and (min-width: 1148px) {
+		width: 370px;
+		font-size: 42px;
 	}
 }
 
@@ -45,6 +64,10 @@
 		width: 320px;
 		height: 2px;
 	}
+	@media screen and (min-width: 1148px) {
+		width: 430px;
+		height: 4px;
+	}
 }
 
 .switch__title--ext {
@@ -64,7 +87,11 @@
 			//height: 23px;
 		}
 	}
-}
+	@media screen and (min-width: 1148px) {
+		margin-left: 130px;
+		width: 300px;
+		}
+	}
 
 .check-list {
 	@media screen and (min-width: 768px){
@@ -74,6 +101,10 @@
 		justify-content: space-between;
 		flex-wrap: wrap-reverse;
 		flex-direction: row-reverse;
+	}
+	@media screen and (min-width: 1148px) {
+		top: -173px;
+		
 	}
 }
 
@@ -87,12 +118,20 @@
 		&:nth-child(4) {order: 2;}
 		&:nth-child(5) {order: 1;}
 	}
+	@media screen and (min-width: 1148px) {
+		width: 462px;
+	}
 }
 
 .check-list__item-title {
+	position: relative;
 	margin: 0 auto 30px;
 	font-family: "Ubuntu mono";
 	font-size:   18px;
+	@media screen and (min-width: 1148px) {
+		margin: 40px auto 10px;
+		font-size: 30px;
+	}
 }
 
 .check-list__item-desc {
@@ -108,12 +147,44 @@
 	margin-right: 5px;
 	width:        37px;
 	height:       44px;
+	@media screen and (min-width: 1148px) {
+		position: absolute;
+		top: -16px;
+		left: -77px;
+		width: 77px;
+		height: 99px;
+	}
 }
 
-.check-list__item:nth-child(1) .check-list__item-title:before {background: url("../img/decor/hook-1.png") no-repeat right}
-.check-list__item:nth-child(2) .check-list__item-title:before {background: url("../img/decor/hook-2.png") no-repeat right}
-.check-list__item:nth-child(3) .check-list__item-title:before {background: url("../img/decor/hook-3.png") no-repeat right}
-.check-list__item:nth-child(4) .check-list__item-title:before {background: url("../img/decor/hook-4.png") no-repeat right}
-.check-list__item:nth-child(5) .check-list__item-title:before {background: url("../img/decor/hook-5.png") no-repeat right}
+.check-list__item:nth-child(1) .check-list__item-title:before {
+	background: url("../img/decor/hook-1.jpg") no-repeat right;
+	@media screen and (min-width: 1148px) {
+		background: url("../img/decor/l-hook-1.jpg") no-repeat right;
+	}
+}
+.check-list__item:nth-child(2) .check-list__item-title:before {
+	background: url("../img/decor/hook-2.jpg") no-repeat right;
+	@media screen and (min-width: 1148px) {
+		background: url("../img/decor/l-hook-2.jpg") no-repeat right;
+	}
+}
+.check-list__item:nth-child(3) .check-list__item-title:before {
+	background: url("../img/decor/hook-3.jpg") no-repeat right;
+	@media screen and (min-width: 1148px) {
+		background: url("../img/decor/l-hook-3.jpg") no-repeat right;
+	}
+}
+.check-list__item:nth-child(4) .check-list__item-title:before {
+	background: url("../img/decor/hook-4.jpg") no-repeat right;
+	@media screen and (min-width: 1148px) {
+		background: url("../img/decor/l-hook-4.jpg") no-repeat right;
+	}
+}
+.check-list__item:nth-child(5) .check-list__item-title:before {
+	background: url("../img/decor/hook-5.jpg") no-repeat right;
+	@media screen and (min-width: 1148px) {
+		background: url("../img/decor/l-hook-5.jpg") no-repeat right;
+	}
+}
 
 
