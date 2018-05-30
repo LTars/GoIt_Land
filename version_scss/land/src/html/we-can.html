@@ -1,28 +1,38 @@
 <!--TODO: на этапе стилизации добавить "теги"-декорации на десктоп-->
 <section class="we-can">
-	<div class="inner">
-		<div class="we-can__wrap-top">
+	<div class="we-can__inner inner">
 			<h2 class="we-can__title">Full Stack - разработчик создает web - приложения и сайты,</h2>
 			<p class="we-can__title--ext">и вы можете стать им за 9 месяцев обучения в
 				<span class="text--blue">GoIT</span></p>
 			<p class="text--bold text--imp">Задачи разработчика делятся на <span class="text--blue">2 части:</span></p>
-		</div>
-		<div class="we-can__wrap-bot">
 			<ul class="we-can__list list">
 				<li class="we-can__item">
 					<p class="we-can__pic-title">Front-end</p>
-					<img srcset="./img/content/front-end.jpg,
+					<picture class="we-can__item-pic">
+						<source media="(min-width: 768px)" srcset="./img/content/m-front-end.jpg,
+                  ./img/content/m-front-end@2x.jpg 2x,
+                  ./img/content/m-front-end@3x.jpg 3x">
+						<source media="(min-width: 320px)" srcset="./img/content/front-end.jpg,
                   ./img/content/front-end@2x.jpg 2x,
-                  ./img/content/front-end@3x.jpg 3x" alt="screenshot of our another site" class="we-can__item-pic">
+                  ./img/content/front-end@3x.jpg 3x">
+						<img src="./img/content/front-end.jpg" alt="screenshot of our another site" class="we-can__item-img">
+					</picture>
 					<h3 class="we-can__item-title">Внешний вид сайта –</h3>
 					<p class="we-can__item-desc">все, что видят, и с чем взаимодействуют пользователи
 						<span>(клиентская часть).</span></p>
 				</li>
 				<li>
 					<p class="we-can__pic-title">Back-end</p>
-					<img srcset="./img/content/back-end.jpg,
+					<picture class="we-can__item-pic">
+						<source media="(min-width: 768px)" srcset="./img/content/m-back-end.jpg,
+                  ./img/content/m-back-end@2x.jpg 2x,
+                  ./img/content/m-back-end@3x.jpg 3x">
+						<source media="(min-width: 320px)" srcset="./img/content/back-end.jpg,
                   ./img/content/back-end@2x.jpg 2x,
-                  ./img/content/back-end@3x.jpg 3x" alt="screenshot of our another site" class="we-can__item-pic">
+                  ./img/content/back-end@3x.jpg 3x">
+						<!--<source media="(min-width: 1200px)" srcset="https://images.pexels.com/photos/382167/pexels-photo-382167.jpeg">-->
+						<img src="./img/content/back-end.jpg" alt="some IDE screenshot" class="we-can__item-img">
+					</picture>
 					<h3 class="we-can__item-title">Серверная логика –</h3>
 					<p class="we-can__item-desc">базы данных, программное обеспечение<span> (регистрация пользователей, отзывы, заказы).</span>
 					</p>
@@ -31,6 +41,5 @@
 			<p class="text--bold text--up"><span class="blue-bg">Какие знания</span> вам нужны для обучения на курсе?</p>
 			<p class="text--bold">Основы ПК, базовый английский и желание учиться.</p>
 			<button class="sign-up__submit" type="button">Начать обучение на курсе</button>
-		</div>
 	</div>
 </section>
