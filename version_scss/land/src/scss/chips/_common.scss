@@ -45,6 +45,11 @@ input[type="radio"].visually-hidden {
 	margin:     auto;
 	padding:    0 15px;
 	width:      320px;
+	@media screen and (min-width: 768px){
+		padding: 0 30px;
+		width: 750px;
+		height: 630px;
+	}
 }
 
 .list {
