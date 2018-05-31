@@ -338,19 +338,19 @@
     background-color: $section13-overlay;
     box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.18);
     position: absolute;
-    left: 68%;
+    left: 66.5%;
     top: 32%;
     z-index: -5;
   }
 }
 .reviews_overlay--second {
   @media (min-width: 1150px) {
-  width: 94%;
+  width: 97%;
   height: 40%;
   background-color: $section13-overlaysecond;
   box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 57%;
+  top: 60%;
   left: 0%;
   clip-path: polygon(0% 45%, 100% 0%, 100% 100%, 0% 100%);
   z-index: -1;
@@ -364,7 +364,7 @@
     background-color: $section13-overlay;
     box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 70.5%;
+    top: 73.5%;
     clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 73%);
     opacity: 1;
   }
@@ -391,5 +391,15 @@
     }
   }
 }
-
+.reviews_overlay--backgr {
+  @media (min-width: 1150px) {
+    width: 5%;
+    height: 15%;
+    background-color: $section14-backgroundlg;
+    position: absolute;
+    left: 95%;
+    top: 85%;
+    z-index: -6;
+  }
+}
 

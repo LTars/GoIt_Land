@@ -15,7 +15,7 @@
     left: 4%;
   }
   @media (min-width: 768px) and (max-width: 1149px) {
-    padding: 262px 40px 152px;
+    padding: 80px 40px 152px;
     background-color: $white;
     position: relative;
     &::before {
@@ -23,7 +23,7 @@
       width: 100%;
       height: 90%;
       left: 0%;
-      clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 2%);
       position: absolute;
     }
     &::after {
@@ -41,14 +41,14 @@
     }
   }
   @media (min-width: 1150px) {
-    padding-top: 526px; // background-image: url('../../img/16-what-receives.jpg');
+    padding-top: 66px; // background-image: url('../../img/16-what-receives.jpg');
     background-color: $white;
     &::before {
       background-color: $section13-backgroundmid;
       width: 100%;
       height: 85%;
       left: 0%;
-      clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
+      // clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 2%);
       box-shadow: 0px 0px 0px rgba($color: #ffffff, $alpha: 1.0);
     }
   }
@@ -92,21 +92,11 @@
   @media (min-width: 1150px) {
     width: 500px;
     height: 58%;
-    // margin-left: 12%;
+   
    
   
   }
 }
-
-// .what_receives__image {
-//   display: block;
-//   width: 292px;
-//   height: 296px;
-//   margin: 0 auto;
-//   background-image: url('../../img/background16sm.jpg');
-//   background-repeat: no-repeat;
-//   margin-bottom: 50px;
-// }
 .what_receives_title {
   @extend %paragraph;
   @extend %content;
@@ -124,7 +114,6 @@
     font-size: 18px;
     line-height: 26px;
     text-align: left;
-    font-weight: 700;
     padding-top: 17px;
     margin-bottom: 30px;
   }
@@ -393,7 +382,7 @@
     width: 400px;
     height: 731px;
     left: 65%;
-    top: 27%;
+    top: 5%;
     position: absolute;
     &::after {
       content: '';

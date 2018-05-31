@@ -6,14 +6,14 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/roboto-v18-latin/roboto-v18-latin-regular.woff2") format("woff2");
+  src: url("../../fonts/roboto-v18-latin_cyrillic/roboto-v18-latin_cyrillic-regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: bold;
   font-weight: 700;
-  src: url("../../fonts/roboto-v18-latin/roboto-v18-latin-700.woff2") format("woff2");
+  src: url("../../fonts/roboto-v18-latin_cyrillic/roboto-v18-latin_cyrillic-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -57,6 +57,8 @@
   font-weight: 400;
   src: url("../../fonts/ubuntu-mono-v7-cyrillic/ubuntu-mono-v7-cyrillic-regular.woff2") format("woff2");
 }
+
+/* roboto-regular - latin */
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -1237,11 +1239,12 @@ img {
   }
 
   .price_title_descr {
-    width: 750px;
+    width: 1150px;
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 30px;
     margin-bottom: 30px;
+    text-align: left;
   }
 
   .price_term_descr {
@@ -1480,18 +1483,18 @@ img {
     background-color: #00bbd3;
     box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.18);
     position: absolute;
-    left: 68%;
+    left: 66.5%;
     top: 32%;
     z-index: -5;
   }
 
   .reviews_overlay--second {
-    width: 94%;
+    width: 97%;
     height: 40%;
     background-color: #e2e2e2;
     box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.1);
     position: absolute;
-    top: 57%;
+    top: 60%;
     left: 0%;
     -webkit-clip-path: polygon(0% 45%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 45%, 100% 0%, 100% 100%, 0% 100%);
@@ -1504,7 +1507,7 @@ img {
     background-color: #00bbd3;
     box-shadow: 0px 32px 40px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 70.5%;
+    top: 73.5%;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 73%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 73%);
     opacity: 1;
@@ -1529,6 +1532,16 @@ img {
     left: 0px;
     right: 0px;
     z-index: -1;
+  }
+
+  .reviews_overlay--backgr {
+    width: 5%;
+    height: 15%;
+    background-color: #19191e;
+    position: absolute;
+    left: 95%;
+    top: 85%;
+    z-index: -6;
   }
 
   .price {
@@ -1678,8 +1691,21 @@ img {
     z-index: -3;
   }
 
+  .whats_diff_overlay_third {
+    display: block;
+    width: 100%;
+    height: 30%;
+    background-color: #ededed;
+    position: absolute;
+    left: 0%;
+    top: 75%;
+    -webkit-clip-path: polygon(0% 70%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 70%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -7;
+  }
+
   .what_receives {
-    padding-top: 526px;
+    padding-top: 66px;
     background-color: white;
   }
 
@@ -1688,8 +1714,6 @@ img {
     width: 100%;
     height: 85%;
     left: 0%;
-    -webkit-clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
     box-shadow: 0px 0px 0px white;
   }
 
@@ -1823,7 +1847,7 @@ img {
     width: 400px;
     height: 731px;
     left: 65%;
-    top: 27%;
+    top: 5%;
     position: absolute;
   }
 
@@ -2036,6 +2060,11 @@ img {
     display: flex;
   }
 
+  .price_payment_item {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
   .price_payment_item:not(:nth-last-child(-n+1)) {
     border-bottom: 1px solid transparent;
   }
@@ -2059,9 +2088,9 @@ img {
     content: '';
     display: block;
     background-color: #f9f9f9;
-    box-shadow: 0px 22px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.12);
     width: 90%;
-    height: 97%;
+    height: 98%;
     position: absolute;
     z-index: -1;
     top: 0px;
@@ -2148,12 +2177,25 @@ img {
     background-color: #00bbd3;
     position: absolute;
     z-index: -5;
-    top: 47%;
+    top: 65%;
     left: 25px;
   }
 
+  .whats_diff_overlay_third {
+    display: block;
+    width: 70%;
+    height: 30%;
+    background-color: #ededed;
+    position: absolute;
+    left: 30%;
+    top: 85%;
+    -webkit-clip-path: polygon(0% 65%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 65%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -7;
+  }
+
   .what_receives {
-    padding: 262px 40px 152px;
+    padding: 80px 40px 152px;
     background-color: white;
     position: relative;
   }
@@ -2163,8 +2205,8 @@ img {
     width: 100%;
     height: 90%;
     left: 0%;
-    -webkit-clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 15%, 100% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 2%);
+    clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 2%);
     position: absolute;
   }
 
@@ -2202,7 +2244,6 @@ img {
     font-size: 18px;
     line-height: 26px;
     text-align: left;
-    font-weight: 700;
     padding-top: 17px;
     margin-bottom: 30px;
   }
