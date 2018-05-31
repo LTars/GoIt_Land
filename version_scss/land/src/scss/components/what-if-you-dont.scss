@@ -1,136 +1,223 @@
 .what-if-you-dont {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media (min-width: 768px) {
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+  @media (min-width: 1150px) {
+    padding-top: 110px;
+    padding-bottom: 115px;
+  }
 }
 
-.what-if-you-dont__title {}
+.what-if-you-dont__title {
+  width: 290px;
+  margin-bottom: 35px;
+  @media (min-width: 768px) {
+    width: 650px;
+    margin-bottom: 55px;
+  }
+  @media (min-width: 1150px) {
+    width: 900px;
+    margin-bottom: 70px;
+  }
+}
+
+.overlay__neudachniki {
+  width: 290px;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    width: 690px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  @media (min-width: 1150px) {
+    width: 1147px;
+  }
+}
 
 .what-if-you-dont__img {
   box-shadow: 0px 31px 24px 0px rgba(0, 0, 0, 0.09);
+  width: 290px;
+  height: 100%;
+  @media (min-width: 768px) {
+    width: 330px;
+  }
+  @media (min-width: 1150px) {
+    width: 500px;
+  }
 }
 
 .what-if-you-dont__img-block {
   display: block;
-  margin: auto;
   position: relative;
   z-index: 1;
   width: 290px;
-  height: 383px;
-  margin-bottom: 48px;
+  height: 100%;
+  margin-bottom: 65px;
+  @media (min-width: 768px) {
+    width: 330px;
+    margin-bottom: 0;
+  }
+  @media (min-width: 1150px) {
+    width: 500px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 286px;
+    height: 388px;
+    background-color: $main-blue;
+    box-shadow: 0px 31px 24px 0px rgba(0, 0, 0, 0.09);
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: -1;
+    @media (min-width: 768px) {
+      width: 309px;
+      height: 426px;
+      top: 35px;
+      left: 27px;
+    }
+    @media (min-width: 1150px) {
+      width: 474px;
+      height: 652px;
+      top: 105px;
+      left: 70px;
+    }
+  }
 }
 
-.what-if-you-dont__img-block::before {
-  content: "";
-  display: block;
-  width: 286px;
-  height: 388px;
-  background-color: rgb(0, 188, 212);
-  box-shadow: 0px 31px 24px 0px rgba(0, 0, 0, 0.09);
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: -1;
+.overlay__discript-neudachniki {
+  @media (min-width: 768px) {
+    padding-top: 30px;
+    width: 330px;
+  }
+  @media (min-width: 1150px) {       
+    padding-top: 120px;
+    width: 574px;
+  }    
 }
 
 .what-if-you-dont__txt {
   font-size: 14px;
-  font-family: "Open Sans";
-  color: rgb(36, 36, 39);
-  line-height: 1.857;
+  font-family: $main-font-txt;
+  color: $header-color;
+  line-height: 26px;
   text-align: left;
   margin-top: 0;
   margin-bottom: 40px;
-}
 
-.what-if-you-dont__txt-bold {
-  font-weight: 600;
+  &-bold {
+    font-weight: 600;
+  }
+  @media (min-width: 768px) {
+
+  }
+  @media (min-width: 1150px) { 
+    font-size: 20px;
+    width: 505px;
+    line-height: 32px;
+  }
+
+  &::after {
+    @media (min-width: 768px) {
+      display: block;
+      content: "";      
+      width: 360px;
+      height: 2px;
+      background-color: $line-color;
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+    @media (min-width: 1150px) {
+      width: 648px;
+      height: 4px;
+      margin-top: 25px;
+      margin-bottom: 70px;
+    }
+  }
 }
 
 .what-if-you-dont__title-no {
   font-size: 16px;
-  font-family: "OpenSans";
-  color: rgb(36, 36, 39);
+  font-family: $main-font-txt;
+  color: $header-color;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 24px;
   text-align: left;
   margin-top: 0;
   margin-bottom: 20px;
+  @media (min-width: 768px) {
+    width: 240px;
+  }
+  @media (min-width: 1150px) {     
+    font-size: 20px;
+    line-height: 32px;
+    width: 520px;
+    margin-bottom: 30px;
+  }
 }
 
 .what-if-you-dont__txt-no {
   margin-top: 0;
   font-size: 14px;
-  font-family: "OpenSans";
-  color: rgb(36, 36, 39);
+  font-family: $main-font-txt;
+  color: $header-color;
   font-weight: bold;
-  line-height: 1.429;
+  line-height: 20px;
   text-align: left;
+  @media (min-width: 768px) {
+    margin-bottom: 35px;
+  }
+  @media (min-width: 1150px) { 
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 100px;
+  }
 }
 
 .what-if-you-dont__txt-block {
-  background-image: url(/img/what-if-you-dont@1.5x.png);
+  position: relative;
   width: 238px;
   height: 115px;
-  position: relative;
   margin-right: 0;
-  margin-left: auto;
+  margin-left: auto;   
+  background-image: url(/img/what-if-you-dont@1.5x.png);
+  @media (min-width: 768px) { 
+    background-image: url(/img/what-if-you-dont@2x.png);
+  }
+  @media (min-width: 1150px) {
+    background-image: url(/img/what-if-you-dont@3x.png);    
+    width: 342px;
+    height: 136px;
+  }
 }
 
 .what-if-you-dont__txt-yes {
   width: 170px;
-  height: 85px;
+  height: 90px;
   font-size: 14px;
-  font-family: "UbuntuMono";
-  color: rgb(36, 36, 39);
+  font-family: $second-font-txt;
+  color: $header-color;
   font-weight: bold;
-  line-height: 1.714;
+  line-height: 24px;
   text-align: left;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-}
-
-@media screen and (min-width: 320px) and (max-width: 340px) {
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .what-if-you-dont {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }    
-}
-
-@media screen and (min-width: 768px) and (max-width: 788px) {}
-
-@media screen and (min-width: 768px) {
-  .what-if-you-dont {
-    width: 690px;
-    margin: 0 auto;
-  }
-
-  .overlay__neudachniki {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .overlay__discript {
-    width: 330px;
+  @media (min-width: 1150px) { 
+    font-size: 20px;
+    line-height: 26px;
+    width: 250px;
+    height: 100px;
   }
 }
 
-@media (min-width: 992px) {
-  .what-if-you-dont {
-    width: 1147px;
-  }
-  
-  .overlay__discript {
-    width: 574px;
-  }
-}
-  
