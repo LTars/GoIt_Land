@@ -849,6 +849,7 @@ body {
 }
 
 .our-pride__items {
+  position: relative;
   box-sizing: border-box;
   height: 388px;
   padding: 20px 5px 15px 30px;
@@ -867,6 +868,17 @@ body {
 .our-pride__items:nth-of-type(3) {
   background: url(../img/bg/bg-grade-3.png) no-repeat left, #fff;
   margin-bottom: 0;
+}
+
+.our-pride__items:not(:first-child) .our-pride__items--wrapper {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.our-pride__items:not(:first-child) .our-pride__items--wrapper > p {
+  width: 52%;
+  padding-bottom: 20px;
 }
 
 .our-pride__link {
@@ -894,17 +906,6 @@ body {
   margin-right: 5px;
 }
 
-.our-pride__items:not(:first-child) .our-pride__items--wrapper {
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.our-pride__items:not(:first-child) .our-pride__items--wrapper > p {
-  width: 52%;
-  padding-bottom: 20px;
-}
-
 .teachers {
   background: url(../img/bg/bg-10.jpg);
   padding-top: 170px;
@@ -917,6 +918,7 @@ body {
 .teachers__wrapper {
   width: 290px;
   margin: 0 auto;
+  position: relative;
 }
 
 .teachers__title {
@@ -939,6 +941,7 @@ body {
 
 .teachers__list {
   margin-bottom: 45px;
+  position: relative;
 }
 
 .title-after__list {
@@ -959,6 +962,11 @@ body {
 .card__list {
   background: #fff;
   box-shadow: 0px 32px 35px 0px rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+.card__items {
+  position: relative;
 }
 
 .card__items:first-child {
@@ -1051,6 +1059,11 @@ body {
   top: 18px;
 }
 
+.teachers__items {
+  position: relative;
+  z-index: 200;
+}
+
 .teachers__items:first-child .card__items:last-child span {
   margin-bottom: 20px;
 }
@@ -1140,6 +1153,7 @@ body {
 
 .video-review__list {
   margin-bottom: 65px;
+  box-sizing: border-box;
 }
 
 .video-review__items {
@@ -1368,7 +1382,7 @@ body {
     transform: rotate(90deg);
     width: 345px;
     padding-left: 59px;
-    text-align: left;
+    text-align: right;
     font-size: 22px;
   }
 
@@ -1440,13 +1454,251 @@ body {
 
   .our-pride__items {
     width: 100%;
+    background: url(../img/bg/bg-grade-1@tab.png) no-repeat right, #FBFBFB;
+    background-position: -67px 0px;
+    padding-right: 30px;
+  }
+
+  .our-pride__items .our-pride__subtitle {
+    font: 900 18px 'Open Sans',sans-serif;
+    width: 299px;
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    top: -41px;
+  }
+
+  .our-pride__items .our-pride__text {
+    max-width: 326px;
+    margin: 0;
   }
 
   .our-pride__items:nth-of-type(2) {
     width: 48%;
+    background-color: #FBFBFB;
+    padding-right: 10px;
+  }
+
+  .our-pride__items:nth-of-type(2) .our-pride__subtitle {
+    max-width: 196px;
+    left: 73px;
+    top: -11px;
+    margin: 0;
+  }
+
+  .our-pride__items:nth-of-type(2) .our-pride__items--wrapper .our-pride__text {
+    width: 150px;
+    padding: 60px 0 0 0;
   }
 
   .our-pride__items:nth-of-type(3) {
     width: 48%;
+    background-color: #FBFBFB;
+    padding-right: 10px;
+  }
+
+  .our-pride__items:nth-of-type(3) .our-pride__subtitle {
+    max-width: 154px;
+    margin: 0;
+    left: 94px;
+    top: -11px;
+  }
+
+  .our-pride__items:nth-of-type(3) .our-pride__items--wrapper .our-pride__text {
+    width: 133px;
+  }
+
+  .our-pride__items:not(:first-child) .our-pride__items--wrapper {
+    align-items: center;
+    padding-top: 35px;
+  }
+
+  .our-pride__link {
+    position: relative;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 78px;
+    left: -47px;
+  }
+
+  .our-pride__items--wrapper {
+    justify-content: space-between;
+  }
+
+  .our-pride__img {
+    margin-right: 0;
+  }
+
+  .teachers {
+    background: url(../img/bg/bg-mentors-tab.png);
+    background-repeat: no-repeat;
+    padding-top: 280px;
+    -webkit-transform: translateY(-159px);
+    transform: translateY(-159px);
+  }
+
+  .teachers__wrapper {
+    width: 719px;
+    margin: 0 auto;
+  }
+
+  .teachers__title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+
+  .teachers__title::after {
+    display: none;
+  }
+
+  .teachers__text {
+    max-width: 327px;
+    position: absolute;
+    right: 24px;
+    top: 197px;
+  }
+
+  .title-after__list {
+    width: 363px;
+    text-align: left;
+    margin-bottom: 58px;
+  }
+
+  .title-after__items {
+    display: block;
+  }
+
+  .title-after__items:first-child {
+    border-bottom: 2px solid #242427;
+  }
+
+  .teachers__items {
+    max-width: 331px;
+  }
+
+  .teachers__items::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 83%;
+    background: #00BCD4;
+    right: 12px;
+    z-index: -1;
+    bottom: -13px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .teachers__items:nth-of-type(2) {
+    position: absolute;
+    right: 20px;
+    top: 131px;
+  }
+
+  .teachers__items:nth-of-type(2)::before {
+    left: 12px;
+    bottom: 37px;
+  }
+
+  .teachers__button {
+    position: absolute;
+    right: 41px;
+    bottom: -24px;
+  }
+
+  .reviews {
+    -webkit-transform: translateY(-149px);
+    transform: translateY(-149px);
+  }
+
+  .reviews__wrapper {
+    width: 719px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews__wrapper--tab {
+    width: 50%;
+  }
+
+  .reviews__title {
+    width: 253px;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
+
+  .reviews__title::after {
+    display: none;
+  }
+
+  .reviews__list {
+    margin-bottom: 40px;
+  }
+
+  .reviews__items {
+    margin-bottom: 15px;
+  }
+
+  .reviews__text {
+    line-height: 1.5;
+    width: 298px;
+    height: 144px;
+    padding: 20px 0 0 28px;
+    position: relative;
+    background: url(../img/bg/bg-video-text.png) no-repeat bottom;
+    background-position: 208px 105px;
+  }
+
+  .reviews__text::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 96px;
+    position: absolute;
+    background: #242427;
+    left: 0;
+    bottom: 28px;
+  }
+
+  .reviews__text::after {
+    content: '';
+    display: inline-block;
+    width: 280px;
+    height: 2px;
+    position: absolute;
+    background: #242427;
+    top: 0;
+    left: 0;
+  }
+
+  .after-title-reviews__list {
+    width: 320px;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .after-title-reviews__items {
+    display: block;
+  }
+
+  .after-title-reviews__items:first-child {
+    border-bottom: 2px solid #242427;
+  }
+
+  .video-review__list {
+    width: 48%;
+    padding: 108px 0 67px 10px;
+    background: url(../img/bg/bg-reviews-tab.png) no-repeat right;
+    background-position-y: -21px;
+    margin: 0;
+  }
+
+  .video-review__items:not(:last-child) {
+    margin-bottom: 28px;
   }
 }

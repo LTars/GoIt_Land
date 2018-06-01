@@ -4,31 +4,58 @@
     position: relative;
     transform: translateY(-120px);
     z-index: 100;
+    @media (min-width:768px){
+        background: url(../img/bg/bg-mentors-tab.png);
+        background-repeat: no-repeat;
+            padding-top: 280px;
+            transform: translateY(-159px);
+    }
     
     
     &__wrapper{
         @include wrapper(290px, 0 auto);
+        position: relative;
+        @media (min-width:768px) {
+            @include wrapper(719px, 0 auto);
+        }
         
     }
     &__title{
         @extend %h2;
         color:$h2-learning-color;
+        @media (min-width:768px) {
+            font-size: 30px;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
         &::after{
             @extend %after-h2;
             display: block;
             background: $h2-learning-color;
+            @media (min-width:768px) {
+                display: none;
+            }
         }
     }
     &__text{
         font-weight: 600;
         color:$second-learning-color;
+        @media (min-width:768px) {
+            max-width: 327px;
+            position: absolute;
+            right: 24px;
+            top: 197px;
+        }
         span{
             font-weight: 900;
         }
+
     }
     &__list{
         @extend %list;
         margin-bottom: 45px;
+        position: relative;
+      
     }
         
 }
@@ -38,6 +65,11 @@
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
+    @media (min-width:768px) {
+        width: 363px;
+        text-align: left;
+        margin-bottom: 58px;
+    }
     
 }
 
@@ -48,16 +80,25 @@
     font-weight: 900;
     letter-spacing: 1px;
     color: $second-learning-color;
+    @media (min-width:768px) {
+        display: block;
+        &:first-child{
+            border-bottom: 2px solid $second-learning-color;
+        }
+    }
 }
 
 .card__list{
+    
     @extend %list;
     background: #fff;
     box-shadow: 0px 32px 35px 0px rgba( 0, 0, 0, 0.19);
-
+    position: relative;
+    
 }
 
 .card__items{
+    position: relative;
     &:first-child{
         display: flex; 
         justify-content: space-between; 
@@ -93,6 +134,7 @@
         display: flex;
         align-items: center;
         min-height: 100px;
+        
         
     }
     &:last-of-type{
@@ -150,8 +192,27 @@
         top:18px
     }
 }
+
  
-.teachers__items:first-child {
+.teachers__items{
+    position: relative;
+    z-index: 200;
+    @media (min-width:768px) {
+        max-width: 331px;
+        &::before{
+            content: '';
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            height:83%;
+            background:#00BCD4;
+            right: 12px;
+            z-index: -1;
+            bottom: -13px; 
+            box-shadow: 0px 3px 7px 0px rgba( 0, 0, 0, 0.2);
+        }
+    }
+&:first-child {
     .card__items:last-child span{
         margin-bottom: 20px;
     }
@@ -159,8 +220,21 @@
     left: 88px;
     }
 }
-.teachers__items:not(:last-child){
+&:nth-of-type(2){
+    @media (min-width:768px) {
+        position: absolute;
+        right: 20px;
+        top: 131px;
+        &::before{
+            left: 12px; 
+            bottom: 37px;
+        }
+    }
+}
+
+&:not(:last-child){
     margin-bottom: 50px;
+}
 }
 
 .teachers__button{
@@ -176,4 +250,9 @@
     font-weight: 900;
     color:$primary-white;
     text-shadow: 1px 1px rgba(28,28,30, 0.32);
+    @media (min-width:768px) {
+        position: absolute;
+        right: 41px;
+        bottom: -24px;
+    }
 }
