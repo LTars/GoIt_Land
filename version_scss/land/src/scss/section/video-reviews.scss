@@ -2,6 +2,9 @@
 @media (min-width:768px) {
     transform: translateY(-149px);
 }
+@media (min-width:1250px) {
+    background: url(../img/bg/bg-reviews-desc.png) no-repeat 930px 10px;
+}
 &__wrapper{
     @include wrapper();
     @media (min-width:768px) {
@@ -10,7 +13,16 @@
         justify-content: space-between;
         &--tab{
             width: 50%;
+            @media (min-width:1250px) {
+                padding-top: 50px;
+                width: 470px;
+                margin-right: 80px;
+            }
         }
+    }
+    @media (min-width:1250px) {
+        @include wrapper(1149px);
+        
     }
   
     }
@@ -25,6 +37,9 @@
         letter-spacing: 3px;
         margin-bottom: 20px;
     }
+    @media (min-width:1250px) {
+        font-size: 42px;
+    }
     &::after{
         @extend %after-h2;
         background: $second-learning-color;
@@ -38,6 +53,9 @@
     margin-bottom: 50px;
     @media (min-width:768px) {
         margin-bottom: 40px;
+    }
+    @media (min-width:1250px) {
+        margin-bottom: 68px;
     }
 
 }
@@ -79,6 +97,9 @@
     position: relative;
     background: url(../img/bg/bg-video-text.png) no-repeat  bottom;
     background-position: 208px 105px;
+    @media (min-width:1250px) {
+        background-position: 173px 98px;
+    }
     &::before{
         content: '';
         display: inline-block;
@@ -143,12 +164,21 @@
         background-position-y: -21px;
         margin: 0;
     }
+    @media (min-width:1250px) {
+        background: none;
+        width: 60%;
+        height: 1005px;
+        padding: 108px 0 67px 0;
+    }
 }
 
 .video-review__items{
     display: inline-block;
     height: 224px;
 box-shadow: 0 15px 20px 0 rgba($color: #000000, $alpha: 0.19);
+@media (min-width:1250px) {
+    box-shadow: 0 38px 29px 0 rgba($color: #000000, $alpha: 0.19);
+}
     &:not(:last-child){
         margin-bottom: 20px;
         @media (min-width:768px) {

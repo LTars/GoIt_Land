@@ -609,6 +609,7 @@ body {
   box-sizing: border-box;
   background: #313133;
   color: #D6D5D5;
+  box-sizing: border-box;
 }
 
 .more-appreciated__text {
@@ -1350,7 +1351,7 @@ body {
   .set-goal__text {
     padding-left: 96px;
     max-width: 400px;
-    margin-bottom: 69px;
+    margin-bottom: 70px;
   }
 
   .set-goal__items {
@@ -1700,5 +1701,368 @@ body {
 
   .video-review__items:not(:last-child) {
     margin-bottom: 28px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1250px) {
+  .more-appreciated::before {
+    width: 390px;
+    height: 148px;
+    top: -5px;
+    right: -11px;
+    background-size: cover;
+  }
+
+  .set-goal__title::before {
+    left: -98px;
+    top: 33px;
+  }
+
+  .set-goal__items::after {
+    left: -75px;
+    top: 38px;
+  }
+
+  .title-after__items:first-child {
+    border-bottom: 4px solid #242427;
+  }
+
+  .teachers__items::before {
+    bottom: -17px;
+    right: 28px;
+  }
+
+  .teachers__items:nth-of-type(2)::before {
+    left: 30px;
+    bottom: 28px;
+  }
+
+  .reviews__wrapper--tab {
+    padding-top: 50px;
+    width: 470px;
+    margin-right: 80px;
+  }
+
+  .reviews__text {
+    background-position: 173px 98px;
+  }
+}
+
+@media (min-width: 1149px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .give-guarantee {
+    margin-top: 100px;
+    padding: 0px;
+  }
+
+  .give-guarantee {
+    background: url(../img/bg/bg-guarantee-desc.png) no-repeat right 350px, url(../img/bg/bg-min-9.jpg);
+  }
+
+  .give-guarantee__wrapper {
+    width: 1149px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    max-height: 872px;
+  }
+
+  .give-guarantee__wrapper--desc {
+    padding-top: 91px;
+    max-width: 575px;
+  }
+
+  .give-guarantee__title::after {
+    width: 600px;
+    height: 4px;
+    margin: 30px 0;
+  }
+
+  .give-guarantee__title {
+    width: 399px;
+    font-size: 45px;
+    margin-bottom: 42px;
+  }
+
+  .give-guarantee__text {
+    width: 526px;
+    font-size: 18px;
+  }
+
+  .perspective__list {
+    padding-left: 0;
+  }
+
+  .perspective__list::before {
+    width: 833px;
+    height: 99px;
+    top: -23px;
+    left: -252px;
+    background-image: url(../img/bg/bg-list-perspective-desk.png);
+  }
+
+  .perspective__items {
+    max-width: 308px;
+  }
+
+  .perspective__items:not(:last-child) {
+    max-width: 173px;
+  }
+
+  .more-appreciated {
+    padding-top: 190px;
+    z-index: 100;
+    max-width: 575px;
+  }
+
+  .more-appreciated__text {
+    margin-bottom: 38px;
+  }
+
+  .more-appreciated__items span {
+    font-size: 22px;
+  }
+
+  .bg__text--left {
+    font-size: 40px;
+    left: -47px;
+    top: 91px;
+  }
+
+  .bg__text--right {
+    font-size: 26px;
+    top: 207px;
+    right: -43px;
+  }
+
+  .training-center__bg {
+    padding-top: 150px;
+    background: url(../img/bg/bg-company-desc.jpg) no-repeat;
+    padding-bottom: 0;
+  }
+
+  .training-center__bg::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 801px;
+    left: 0;
+    top: 484px;
+    background: #00bcd4;
+  }
+
+  .training-center__bg::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 801px;
+    right: 0;
+    top: 84px;
+    background: #00bcd4;
+  }
+
+  .traning-center__wrapper {
+    width: 1149px;
+    margin: 0 auto;
+  }
+
+  .traning-center__wrapper--desc {
+    position: relative;
+    display: flex;
+  }
+
+  .training-center__title {
+    font-size: 45px;
+  }
+
+  .after-title__items {
+    width: 430px;
+    border-bottom: 4px solid #242427;
+    font-weight: 900;
+  }
+
+  .after-title__items:nth-of-type(2) {
+    margin-left: 650px;
+  }
+
+  .set-goal__title {
+    padding-left: 0;
+  }
+
+  .set-goal__text {
+    margin-bottom: 54px;
+    padding-left: 0;
+  }
+
+  .set-goal__items {
+    padding-left: 0;
+  }
+
+  .set-goal__items::before {
+    left: -44px;
+    top: 18px;
+  }
+
+  .company {
+    max-width: 585px;
+  }
+
+  .company__text {
+    margin-bottom: 70px;
+  }
+
+  .our-pride__wrapper {
+    width: 1149px;
+    margin: o auto;
+  }
+
+  .our-pride__title {
+    margin-bottom: 0;
+    -webkit-transform: translateY(-95%);
+    transform: translateY(-95%);
+  }
+
+  .our-pride__list {
+    width: 1149px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+  }
+
+  .our-pride__items {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .our-pride__items:nth-of-type(2) {
+    margin-right: 20px;
+  }
+
+  .teachers {
+    background: url(../img/bg/bg-mentors-desc.png) no-repeat -205px 0px;
+    margin-bottom: 118px;
+  }
+
+  .teachers__wrapper {
+    width: 1149px;
+    margin: 0 auto;
+  }
+
+  .teachers__title {
+    font-size: 42px;
+  }
+
+  .teachers__text {
+    right: 321px;
+    top: 234px;
+    font-size: 18px;
+    min-width: 360px;
+  }
+
+  .title-after__list {
+    width: 451px;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .card__items:first-child p {
+    font-size: 26px;
+  }
+
+  .card__items:first-child p::after {
+    width: 75px;
+    height: 4px;
+  }
+
+  .card__items:first-child span {
+    display: inline-block;
+    font-size: 16px;
+    max-width: 120px;
+  }
+
+  .card__items:last-of-type {
+    padding: 20px 20px 40px 20px;
+  }
+
+  .card__items:last-of-type span {
+    font-size: 14px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+  }
+
+  .card__items:last-of-type p {
+    max-width: 300px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .items-title {
+    font-size: 30px;
+  }
+
+  .items-title::after {
+    width: 150px;
+    top: 23px;
+    left: 140px;
+  }
+
+  .teachers__items {
+    max-width: 430px;
+  }
+
+  .teachers__items:first-child .items-title::after {
+    left: 154px;
+  }
+
+  .teachers__items:nth-of-type(2) {
+    right: 253px;
+    top: 221px;
+  }
+
+  .teachers__items:not(:last-child) {
+    margin-bottom: 89px;
+  }
+
+  .teachers__button {
+    width: 320px;
+    height: 70px;
+    right: 311px;
+    bottom: -38px;
+  }
+
+  .reviews {
+    background: url(../img/bg/bg-reviews-desc.png) no-repeat 930px 10px;
+  }
+
+  .reviews__wrapper {
+    width: 1149px;
+    margin: 0 auto;
+  }
+
+  .reviews__title {
+    font-size: 42px;
+  }
+
+  .reviews__list {
+    margin-bottom: 68px;
+  }
+
+  .video-review__list {
+    background: none;
+    width: 60%;
+    height: 1005px;
+    padding: 108px 0 67px 0;
+  }
+
+  .video-review__items {
+    box-shadow: 0 38px 29px 0 rgba(0, 0, 0, 0.19);
   }
 }
