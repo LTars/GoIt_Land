@@ -1,60 +1,302 @@
 .header {
-	margin:           auto;
-	padding:          30px 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 30px 0 65px;
 	background-color: $dark-smoke;
-	height:           550px;
-	font-family:      "Ubuntu mono", sans-serif;
-	color:            $white;
-	text-align:       center;
-}
-
-.logo {
-	padding:    15px 50px;
-	background: url("../img/logo.png") no-repeat;
-	font-size:  0;
-}
-
-.text--start {
-	margin: auto;
-	padding: 3px;
-	width: 134px;
-	border: 1px solid $main-blue;
-	text-transform: uppercase;
-}
-
-.course-name {
+	color: $white;
+	font-size: 14px;
+	text-align: center;
+	@media screen and (min-width: 768px) {
+		height: 725px;
+	}
+	@media screen and (min-width: 1920px) {
+		padding-top: 0;
+	}
+	& header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 0 55px;
+		height: 93px;
+		flex-wrap: wrap;
+		@media screen and (min-width: 768px) {
+			margin-bottom: 40px;
+		}
+		@media screen and (min-width: 1920px) {
+			margin: 0 auto 180px 80px;
+			width: 1490px;
+			height: 105px;
+		}
+		
+		& .logo {
+			padding-top: 4px;
+			font-size: 0;
+			@media screen and (min-width: 768px) {
+				padding: 0;
+			}
+			@media screen and (min-width: 1920px) {
+				padding-top: 30px;
+				
+				& > span {
+					padding-left: 75px;
+					font-size: 14px;
+				}
+			}
+			
+			& a {
+				display: flex;
+				width: 210px;
+				font-size: 11px;
+				color: $white;
+				text-transform: uppercase;
+				text-decoration: none;
+				@media screen and (min-width: 1920px) {
+					margin-bottom: 15px;
+					width: 382px;
+					font-size: 15px;
+				}
+				
+				& img {
+					margin: auto 0;
+					width: 79px;
+					height: 23px;
+					@media screen and (min-width: 1920px) {
+						width: 98px;
+						height: 29px;
+						}
+					}
+				
+				& span {
+					line-height: 1.455;
+					padding-left: 10px;
+					text-align: left;
+					@media screen and (min-width: 1920px) {
+						padding-left: 20px;
+					}
+				}
+			}
+			
+			@media screen and (min-width: 1920px) {
+			}
+		}
+		
+		& .info {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			width: 140px;
+			height: 35px;
+			@media screen and (min-width: 768px) {
+				order: 2;
+			}
+			@media screen and (min-width: 1920px) {
+				width: 273px;
+				height: 100px;
+			}
+			
+		}
+		& .sign-in {
+			display: none;
+			@media screen and (min-width: 1920px) {
+				@include font('Museo sans cyrl', bold, 900);
+				box-sizing: border-box;
+				display: block;
+				margin-right: auto;
+				padding: 7px 0 0 15px ;
+				width: 237px;
+				height: 33px;
+				color: $header-color;
+				text-align: left;
+				font-size: 16px;
+				text-transform: uppercase;
+				line-height: 1.25;
+				background: $white;
+			}
+		}
+		
+		& .num {
+			color: $main-blue;
+			border-bottom: 1px solid $main-blue;
+			@include font('Ubuntu mono', bold, 900);
+			@media screen and (min-width: 1920px) {
+				margin-left: 15px;
+				padding-top: 15px;
+				width: 258px;
+				text-align: left;
+				font-size: 20px;
+			}
+		}
+		
+		& .set-up {
+			font-size: 13px;
+			color: $light-smoke2;
+			@media screen and (min-width: 1920px) {
+				margin-left: 15px;
+				padding-top: 10px;
+				width: 258px;
+				text-align: left;
+				font-size: 16px;
+			}
+			
+			& strong {
+				color: $white;
+			}
+		}
+	}
 	
-	font-size: 30px;
-	text-transform: uppercase;
-}
-
-.text--blue {
-	padding: 4px 0;
-	width:   152px;
-	color:   $main-blue;
-}
-
-.text--num {
-	border-bottom: 1px solid $main-blue;
-}
-
-.text--white {
-	color:       $white;
-	font-weight: bold;
-}
-
-.text--smoke2 {
-	color: $light-smoke2;
-}
-
-.text--ext {
-	display: none;
-}
-
-.advantage-list {
-	display: none;
-}
-
-.reviews__link {
-	display: none;
+	& .start {
+		align-self: center;
+		box-sizing: border-box;
+		margin: 0 auto;
+		padding-top: 5px;
+		width: 141px;
+		height: 28px;
+		border: 1px solid $main-blue;
+		text-transform: uppercase;
+		@media screen and (min-width: 768px) {
+			align-self: flex-start;
+			margin: 0 0 0 -40px;
+			padding-top: 3px;
+			width: 158px;
+			height: 26px;
+			font-size: 16px;
+		}
+		@media screen and (min-width: 1920px) {
+			margin: 110px 0 0 320px;
+			width: 240px;
+			font-size: 22px;
+			text-align: right;
+			border: none;
+			transform: rotate(90deg);
+			
+			&::before {
+				content: '';
+				background: $main-blue;
+				position: absolute;
+				left: 120px;
+				bottom: -90px;
+				width: 1px;
+				height: 241px;
+				transform: rotate(90deg);
+			}
+		}
+		
+		& strong {
+			color: $main-blue;
+		}
+	}
+	
+	& .block__caption {
+		@media screen and (min-width: 1920px) {
+			margin-left: 390px;
+			width: 590px;
+		}
+			
+			& .pre-caption {
+			margin: 0 0 25px;
+			font-size: 16px;
+			color: $light-smoke2;
+			@media screen and (min-width: 768px) {
+				margin-bottom: 53px;
+			}
+			
+			& span {
+				font-size: 18px;
+				color: $white;
+				text-transform: uppercase;
+				@media screen and (min-width: 768px) {
+					font-size: 20px;
+				}
+			}
+		}
+		
+		& .caption {
+			margin: 0;
+			text-transform: uppercase;
+			font-size: 30px;
+			line-height: 1.3;
+			@media screen and (min-width: 768px) {
+				margin-bottom: 50px;
+				font-size: 40px;
+				line-height: 1.25;
+				
+				&::after {
+					display: block;
+					content: '';
+					position: relative;
+					top: 20px;
+					margin: 0 auto;
+					width: 120px;
+					height: 1px;
+					background-color: $main-blue;
+				}
+			}
+			
+			&::before {
+				display: block;
+				content: '';
+				position: relative;
+				top: -10px;
+				margin: 0 auto;
+				width: 150px;
+				height: 3px;
+				background-color: $main-blue;
+				@media screen and (min-width: 768px) {
+					width: 574px;
+					height: 6px;
+					top: -27px;
+				}
+			}
+			
+			& span {
+				color: $main-blue;
+			}
+		}
+		
+		& .after-caption {
+			line-height: 1.4;
+			@media screen and (min-width: 768px) {
+				margin-bottom: 100px;
+				letter-spacing: 0.04em;
+				
+				& br {
+					display: none;
+				}
+			}
+			
+			& > span {
+				display: block;
+				margin-bottom: 5px;
+				& span {
+					color: $main-blue;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	& .list {
+		display: none;
+		@media screen and (min-width: 768px) {
+			display: flex;
+			justify-content: center;
+			
+			& .list__item {
+				padding-left: 60px;
+				width: 130px;
+				font-size: 16px;
+				text-align: left;
+				line-height: 1.125;
+			}
+			
+			& .list__head {
+				padding-right: 15px;
+				border-right: 1px solid $white;
+				line-height: 1.375;
+				text-transform: uppercase;
+			}
+		}
+	}
+	& .add {
+		display: none;
+	}
 }
