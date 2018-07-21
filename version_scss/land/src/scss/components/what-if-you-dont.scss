@@ -1,6 +1,7 @@
 .what-if-you-dont {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: $white;
   @media (min-width: 768px) {
     padding-top: 90px;
     padding-bottom: 70px;
@@ -88,6 +89,32 @@
       height: 652px;
       top: 105px;
       left: 70px;
+    }
+  }
+
+  &::after {    
+    content: "";
+    display: block;
+    border-width: 10px;
+    border-color: $white;
+    border-style: solid;
+    background-color: #eeeeee;
+    box-shadow: 0px 31px 24px 0px #e8e8e8;
+    position: absolute;      
+    z-index: -2;
+
+    @media (min-width: 768px) {
+      width: 270px;
+      height: 384px;
+      top: 60px;
+      left: -24px;      
+    }
+
+    @media (min-width: 1150px) {      
+      width: 578px;
+      height: 632px;      
+      top: 80px;
+      left: -57px;
     }
   }
 }
@@ -188,14 +215,59 @@
   height: 115px;
   margin-right: 0;
   margin-left: auto;   
-  background-image: url(/img/what-if-you-dont@1.5x.png);
-  @media (min-width: 768px) { 
-    background-image: url(/img/what-if-you-dont@2x.png);
+  position: relative;
+  border: 3px solid $header-color;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 68px;
+    background-color: $white;
+    position: absolute;
+    top: 20px;
+    left: -4px;
   }
-  @media (min-width: 1150px) {
-    background-image: url(/img/what-if-you-dont@3x.png);    
-    width: 342px;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 95px;
+    height: 6px;
+    background-color: $white;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+  }
+
+  @media (min-width: 768px) { 
+  }
+  @media (min-width: 1150px) {    
     height: 136px;
+    width: 342px;      
+    
+    &::before {
+      content: "";
+      display: block;
+      width: 6px;
+      height: 82px;
+      background-color: $white;
+      position: absolute;
+      top: 20px;
+      left: -4px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 137px;
+      height: 6px;
+      background-color: $white;
+      position: absolute;
+      bottom: -4px;
+      left: 20px;
+    }
+    
   }
 }
 

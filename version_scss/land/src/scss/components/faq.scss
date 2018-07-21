@@ -4,14 +4,42 @@
   box-sizing: border-box;
   padding-top: 55px;
 
-  @media (min-width: 768px) {  
+  @media (min-width: 768px) and (max-width: 1149px) {  
     padding-top: 80px;
     width: 690px;
+      
+   /* &::after {
+      content: "";
+      background: 22px 50px/460px 300px url(../../img/faq.png),155px 0/290px 570px url(../../img/faq-faq.jpg);
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 40px;
+      bottom: 0;
+      left: 285px;
+      right: 0;
+      z-index: -1;    
+    }  */
+  
   }
 
   @media (min-width: 1150px) {
     padding-top: 100px;
     width: 1147px;
+   // background: url(../img/pattern.jpg);
+
+ /*
+    &::after {
+      content: "";
+      background: 280px 205px/650px 390px url(../../img/faq.png),155px 0/307px 591px url(../../img/faq-index.png);
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 40px;
+      bottom: 0;
+      left: 285px;
+      right: 0;
+      z-index: -1;   
+    }  
+    */
   }
 }
 
@@ -35,6 +63,7 @@
   @media (min-width: 768px) { 
     width: 330px;
     margin-left: 0;
+    margin-bottom: 125px;
 
     &-txt {     
       text-align: right;
@@ -45,6 +74,7 @@
   }
   @media (min-width: 1150px) { 
     width: 475px;
+    margin-bottom: 70px;
   }
 }
 
@@ -101,7 +131,9 @@
   @media (min-width: 1150px) { 
     line-height: 26px;
     font-size: 18px;
+    
   }
+  
 }
 
 /*заменить ли ховер на по нажатию и поставит релатив/абсолют или сделать как выпадающее меню*/
@@ -111,3 +143,45 @@
 }
 
 
+.bu {
+  width: 500px;
+  height: 600px;
+  padding: 56px 15px 64px 15px;
+  background-color: yellow;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    background-color: brown;
+    padding: 102px 38px 72px;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: green;
+      clip-path: polygon(0% 0%, 100% 30%, 100% 100%, 0% 100%);
+      z-index: -3;
+    }
+  }
+  @media (min-width: 1150px) {
+    background-color: pink;
+    padding: 336px 0px 160px;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      display: block;
+      background-color: blue;
+      width: 100%;
+      height: 85%;
+      position: absolute;
+      top: 0px;
+      clip-path: polygon(0% 0%, 100% 45%, 100% 100%, 0% 100%, 0% 0%);
+      z-index: -1;
+    }
+  }
+}

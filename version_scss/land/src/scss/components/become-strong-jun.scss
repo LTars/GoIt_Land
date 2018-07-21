@@ -1,7 +1,70 @@
 .become-strong-jun {
-  background-image: url(/img/become-strong-jun@1.5x.png);
   padding-top: 55px;
   padding-bottom: 65px;
+  @media (min-width: 768px) {
+    background-color: $white;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #f1f1f1;
+      clip-path: polygon(0% 5%, 100% 30%, 100% 100%, 0% 100%);
+      z-index: -1;
+    }
+  }
+  @media (min-width: 1150px) {
+    background-color: $white;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 100px;
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #f7f7f7;
+      clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 100%);
+      z-index: -2;
+    }
+
+  }
+}
+
+.for-first-blue {  
+  @media (min-width: 1150px) { 
+    display: block;
+    width: 454px;
+    height: 206px;
+    background-color: $main-blue;
+    top: 315px;
+    right: 54%;
+    position: absolute;
+    z-index: -3;
+  }
+}
+
+.for-first-grey {  
+  @media (min-width: 1150px) { 
+    display: block;
+    width: 50%;
+    height: 67%;
+    background-color: #f4f4f4;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    z-index: -2;
+    box-shadow: 0px -20px 51px 0px #c9c9c9;
+
+  }
 }
 
 .become-strong-jun__title {
@@ -31,13 +94,41 @@
 .overlay__team {
   max-width: 290px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
   @media (min-width: 768px) {
     display: flex;
     align-items: stretch;
     max-width: 690px;
+    box-shadow: 0px 20px 51px 0px #c9c9c9;
+
   }
   @media (min-width: 1150px) {
     max-width: 1147px;
+
+    &::before {
+      content: '';      
+      display: block;
+      width: 364px;
+      height: 828px;
+      background-color: $main-blue;
+      box-shadow: 0px 3px 7px 0px $light-smoke;
+      top: 429px;
+      left: 824px;
+      position: absolute;
+      z-index: -1;      
+    }    
+    
+    &::after {      
+      content: '';     
+      background-image: url(../img/bg-dot-black.png); 
+      width: 385px;   
+      height: 490px;  
+      position: absolute;
+      top: 180px;
+      left: -385px;
+      z-index: -1;   
+    }
   }
 }
 
@@ -46,6 +137,8 @@
   margin-bottom: 20px;
   background-color: $white;
   box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
   @media (min-width: 768px) {
     width: 345px;
     margin-bottom: 0;
@@ -238,9 +331,26 @@
   padding: 60px 15px 40px 15px;
   @media (min-width: 768px) {
     padding-top: 230px;
+    width: 345px;
   }
   @media (min-width: 1150px) {
     padding-top: 255px;
+    width: 574px;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';      
+      display: block;
+      width: 80px;
+      height: 440px;
+      background-color: #f4f4f4;
+      box-shadow: 0px 20px 51px 0px #c9c9c9;
+      bottom: 300px;
+      left: 710px;
+      position: absolute;
+      z-index: -1;   
+    }
   }
 }
 
@@ -277,7 +387,7 @@
     font-size: 16px;
     line-height: 22px;
   }
-  
+
   &::before {
     display: block;
     content: "";
@@ -327,10 +437,8 @@
   color: $header-color;
   line-height: 24px;
   position: relative;
-  @media (min-width: 768px) { }
-  @media (min-width: 1150px) { 
-
-  }
+  @media (min-width: 768px) {}
+  @media (min-width: 1150px) {}
 }
 
 .form-item__txt-span {
@@ -370,5 +478,3 @@
     height: 70px;
   }
 }
-
-
