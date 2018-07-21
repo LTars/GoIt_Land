@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bb7254-f06c-4814-8e62-9597772fa4f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hook-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hook-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hook-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hook-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hook-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hud@0,5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/hud@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/l-hook-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/l-hook-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/l-hook-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/l-hook-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/l-hook-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/decor/switch_bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss">
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+            <state relative-caret-position="497">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -31,17 +43,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="651">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -49,8 +52,35 @@
       <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="343">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="409" column="28" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -74,6 +104,9 @@
       <find>box-si</find>
       <find>^?.p</find>
       <find>_</find>
+      <find>ubu</find>
+      <find>letter-spa</find>
+      <find>.block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,9 +139,10 @@
         <option value="$PROJECT_DIR$/version_scss/land/src/index.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_mixins.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/html/header.html" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/html/header.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss" />
       </list>
     </option>
@@ -127,10 +161,13 @@
       <path value="$PROJECT_DIR$/version_scss/land/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="960" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2186" />
+    <option name="y" value="30" />
+    <option name="width" value="1489" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,11 +184,6 @@
             <path>
               <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
               <item name="version_scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,29 +205,6 @@
               <item name="version_scss" type="462c0819:PsiDirectoryNode" />
               <item name="land" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,9 +212,16 @@
               <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
               <item name="version_scss" type="462c0819:PsiDirectoryNode" />
               <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
+              <item name="decor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
+              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
+              <item name="land" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
@@ -214,15 +230,6 @@
               <item name="land" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
@@ -287,17 +294,18 @@
       <workItem from="1531999590216" duration="65000" />
       <workItem from="1532011633100" duration="5293000" />
       <workItem from="1532078204687" duration="1586000" />
+      <workItem from="1532157057436" duration="11248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109655000" />
+    <option name="totallyTimeSpent" value="123736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="2186" y="30" width="1489" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5446224" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5445474" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -372,13 +380,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html" />
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -400,13 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html" />
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -519,13 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html" />
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/we-can.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -547,6 +537,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/css/styles.min.css" />
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -554,59 +567,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/build/css/styles.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret column="2099" selection-end-column="10269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/build/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="999" column="11" lean-forward="true" selection-start-line="999" selection-start-column="11" selection-end-line="999" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="52" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="651">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="497">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/blocks/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        <state relative-caret-position="650">
+          <caret line="409" column="28" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
         </state>
       </provider>
     </entry>
