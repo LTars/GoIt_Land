@@ -2,15 +2,19 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 30px 0 65px;
-	background: $dark-smoke url("../img/decor/hud-header-gray.png") no-repeat 0 74px;
 	color: $white;
 	font-size: 14px;
 	text-align: center;
+	background: $dark-smoke;
 	@include font('Roboto Light', 400);
+	@media screen and (min-width: 768px) {
+		background: $dark-smoke url("../img/decor/hud-header-gray__768.png") no-repeat 117px 267px;
+	}
 	
 	@media screen and (min-width: 1920px) {
 		position: relative;
 		padding: 0 0 52px;
+		background: $dark-smoke url("../img/decor/hud-header-gray.png") no-repeat 0 74px;
 		
 		& .inner {
 			text-align: left;
@@ -225,6 +229,10 @@
 				font-size: 18px;
 				color: $white;
 				text-transform: uppercase;
+				
+				&::after {
+					content: '_';
+				}
 				@include font('Ubuntu mono', 900);
 				@media screen and (min-width: 768px) {
 					font-size: 20px;
@@ -266,6 +274,10 @@
 			
 			& span {
 				color: $main-blue;
+				
+				&::before {
+					content: '_';
+				}
 			}
 		}
 		
@@ -358,38 +370,33 @@
 				justify-content: center;
 				
 				& .list__item {
+					position: relative;
 					padding-left: 60px;
 					width: 130px;
 					font-size: 16px;
 					text-align: left;
 					line-height: 1.125;
+					
+					&::before {
+						position: absolute;
+						display: inline-block;
+						content: '<_';
+						left: 30px;
+						width: 24px;
+						height: 15px;
+						font-weight: 900;
+						color: $main-blue;
+					}
 					@media screen and (min-width: 1920px) {
 						box-sizing: border-box;
-						position: relative;
 						margin-bottom: 25px;
 						padding: 0 60px 0 5px;
 						width: 241px;
 						font-size: 20px;
 						
 						&::before {
-							position: absolute;
-							display: inline-block;
-							content: '<_';
 							left: -24px;
-							width: 24px;
-							height: 15px;
-							font-weight: 900;
-							color: $main-blue;
-							
 						}
-						
-						& br {
-							display: inline;
-						}
-					}
-					
-					& br {
-						display: none;
 					}
 				}
 				
@@ -397,18 +404,17 @@
 					padding-right: 15px;
 					border-right: 1px solid $white;
 					line-height: 1.375;
+					letter-spacing: 1px;
 					text-transform: uppercase;
 					@include font('Roboto Black', 900);
-					
+					&::before {
+						display: none;
+					}
 					@media screen and (min-width: 1920px) {
 						padding-bottom: 7px;
 						font-size: 22px;
 						border-right: none;
 						border-bottom: 1px solid $white;
-						
-						&::before {
-							display: none;
-						}
 					}
 				}
 			}
