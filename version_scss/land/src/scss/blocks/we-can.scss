@@ -2,32 +2,74 @@
 	position: relative;
 	box-sizing: border-box;
 	padding: 45px 0 60px;
-	background: url("../img/back/we-can.jpg");
 	text-align: center;
 	font-size: 14px;
+	margin: 0 auto;
 	@include font('Open sans', 400);
 	@media screen and (min-width: 768px) {
 		margin-top: 60px;
-		& .inner {
-			padding: 0 22px 0 25px;
-		}
-		&::before {
+		height: 1191px;
+		
+		&::after {
+			display: block;
 			position: absolute;
-			top: 24px;
-			left: 0;
-			display: inline-block;
 			content: '';
-			width: 330px;
-			height: 2px;
-			background: $main-blue;
-			z-index: 10;
+			top: 0;
+			width: 100%;
+			height: 1191px;
+			background: url("../img/back/we-can.jpg");
+			clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+			z-index: -2;
+			@media screen and (min-width: 1920px) {
+				height: 1590px;
+				clip-path: polygon(0 0, 100% 0, 100% 69%, 0% 100%);
+			}
+			
 		}
+		
+		& .inner {
+			position: relative;
+			height: 1191px;
+			margin: 0 auto;
+			@media screen and (min-width: 1920px) {
+				height: 1590px;
+			}
+			&::before {
+				position: absolute;
+				top: -21px;
+				left: -22px;
+				display: inline-block;
+				content: '';
+				width: 330px;
+				height: 2px;
+				background: $main-blue;
+				z-index: 10;
+				@media screen and (min-width: 1920px) {
+					left: 171px;
+					top: -45px;
+					width: 500px;
+					height: 2px;
+				}
+			}
+		}
+	}
+	
+	@media screen and (min-width: 1920px) {
+		height: 1590px;
 	}
 	
 	& .add {
 		@include font('Ubuntu mono', 700);
 		margin-bottom: 30px;
-		
+		@media screen and (min-width: 768px) {
+			margin-bottom: 10px;
+			padding-top: 30px;
+		}
+		@media screen and (min-width: 1920px) {
+			margin: 0 0 52px 296px;
+			padding-top: 47px;
+			font-size: 18px;
+		}
 		& span {
 			display: block;
 			line-height: 24px;
@@ -36,13 +78,104 @@
 		& span:nth-child(1) {
 			font-size: 16px;
 			text-transform: uppercase;
+			@media screen and (min-width: 768px) {
+				font-size: 18px;
+				margin-bottom: 3px;
+			}
+			@media screen and (min-width: 1920px) {
+				font-size: 22px;
+			}
 			
 			& > span {
 				display: inline-block;
 				background: $main-blue;
 				width: 104px;
 				height: 22px;
+				@media screen and (min-width: 768px) {
+					width: 120px;
+				}
+				@media screen and (min-width: 1920px) {
+					width: 143px;
+					height: 27px;
+				}
 			}
+		}
+	}
+	& .sign-up__submit {
+		@media screen and (min-width: 320px) {
+			width: 290px;
+			height: 55px;
+			font-size: 14px;
+		}
+		@media screen and (min-width: 1920px) {
+			margin-left: 25%;
+		}
+	}
+	& .decor-left {
+		left: -35px;
+		bottom: 540px;
+	}
+	& .decor-right {
+		right: -165px;
+		top: 290px;
+		
+		& span:nth-child(1) {
+			color: $main-blue;
+			text-transform: uppercase;
+		}
+	}
+	& .decor-left, & .decor-right {
+		display: none;
+		@media screen and (min-width: 1920px) {
+			display: block;
+			position: absolute;
+			font-size: 16px;
+			@include font('Ubuntu mono', 400);
+			transform: rotate(90deg);
+			& span {
+				margin-left: 35px;
+			}
+		}
+	}
+}
+
+.we-can__top {
+	@media screen and (min-width: 768px) {
+		position: absolute;
+		box-sizing: border-box;
+		left: 0;
+		top: -99px;
+		padding-top: 100px;
+		width: 721px;
+		height: 487px;
+		background-color: $light-gray;
+		box-shadow: -14.326px 46.859px 58px 0px rgba(0, 0, 0, 0.15);
+	}
+	@media screen and (min-width: 1920px) {
+		top: -122px;
+		left: 297px;
+		width: 945px;
+		height: 870px;
+		
+		&::before {
+			content: '';
+			position: absolute;
+			left: -44px;
+			top: -24px;
+			width: 320px;
+			height: 830px;
+			background: url("../img/back/we-can-blue.png");
+			z-index: -1;
+		}
+		
+		&::after {
+			content: '';
+			position: absolute;
+			left: 0px;
+			top: 417px;
+			width: 688px;
+			height: 1px;
+			background-color: #d8d8d9;
 		}
 	}
 }
@@ -64,10 +197,18 @@
 		width: 389px;
 		text-align: left;
 		font-size: 30px;
+		letter-spacing: 1px;
+		&::before {
+			font-size: 35px;
+		}
 	}
 	@media screen and (min-width: 1920px) {
-		width: 370px;
+		padding-left: 93px;
+		width: 730px;
 		font-size: 42px;
+		&::before {
+			font-size: 50px;
+		}
 	}
 }
 
@@ -80,13 +221,14 @@
 	background-color: $dark-smoke;
 	@media screen and (min-width: 768px) {
 		position: relative;
-		top: 50px;
+		top: 60px;
 		left: -17px;
 		margin: 0;
 		width: 320px;
 		height: 2px;
 	}
 	@media screen and (min-width: 1920px) {
+		left: 90px;
 		width: 430px;
 		height: 4px;
 	}
@@ -101,20 +243,31 @@
 		color: $main-blue;
 	}
 	@media screen and (min-width: 768px) {
-		margin-left: 70px;
+		margin: 35px 0 0 70px;
 		width: 250px;
 		text-align: right;
-		
+		font-size: 16px;
 		& span {
+			display: inline-block;
+			box-sizing: border-box;
 			background-color: $header-color;
-			padding: 0 3px;
-			//width: 85px;
-			//height: 23px;
+			padding: 0 5px 0 0;
+			width: 50px;
+			height: 24px;
+			text-align: left;
+			letter-spacing: 1px;
 		}
 	}
 	@media screen and (min-width: 1920px) {
-		margin-left: 130px;
+		margin: 26px 0 0 313px;
 		width: 300px;
+		font-size: 18px;
+		line-height: 30px;
+		& span {
+			width: 64px;
+			height: 27px;
+			padding-left: 4px;
+		}
 	}
 }
 
@@ -131,12 +284,60 @@
 		color: $main-blue;
 	}
 	@media screen and (min-width: 768px) {
-		width: 170px;
+		position: absolute;
+		top: 71px;
+		right: -32px;
+		width: 172px;
 		text-align: left;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 16px;
 		border: none;
-		transform: rotate(90deg) translate(-250px, -580px);
+		transform: rotate(90deg);
+	}
+	@media screen and (min-width: 1920px) {
+		font-size: 16px;
+		width: 200px;
+		line-height: 20px;
+		right: -140px;
+		top: 61px;
+	}
+}
+
+.we-can__bot {
+	@media screen and (min-width: 768px) {
+		box-sizing: border-box;
+		background-color: $light-gray;
+		box-shadow: -14.326px 46.859px 58px 0px rgba(0, 0, 0, 0.15);
+		position: absolute;
+		left: 0;
+		top: 417px;
+		padding-top: 464px;
+		width: 721px;
+		height: 649px;
+		
+		&::after {
+			content: '';
+			position: absolute;
+			right: 52px;
+			bottom: -35px;
+			width: 1000px;
+			height: 50px;
+			background: url("../img/back/we-can-blue.png");
+			z-index: -3;
+			@media screen and (min-width: 1920px) {
+				right: -55px;
+				width: 1080px;
+				height: 320px;
+			}
+		}
+	}
+	@media screen and (min-width: 1920px) {
+		top: 528px;
+		left: 457px;
+		padding-top: 546px;
+		width: 1077px;
+		height: 822px;
+		background: $light-gray url("../img/decor/we-can_dec.png") no-repeat 0 504px;
 	}
 }
 
@@ -146,6 +347,29 @@
 	border-bottom: 3px solid $header-color;
 	@media screen and (min-width: 768px) {
 		position: absolute;
+		bottom: 160px;
+		display: flex;
+		align-items: flex-end;
+		width: 721px;
+		
+		& .we-can__item {
+			width: 50%;
+		}
+	}
+	@media screen and (min-width: 1920px) {
+		bottom: 276px;
+		padding-left: 15px;
+		width: 980px;
+		border: none;
+		&::after {
+			content: '';
+			background-color: $header-color;
+			position: absolute;
+			left: 228px;
+			bottom: -30px;
+			width: 906px;
+			height: 3px;
+		}
 	}
 }
 
@@ -155,7 +379,18 @@
 	text-align: left;
 	@include font('Ubuntu mono', 700);
 	font-size: 18px;
-	
+	@media screen and (min-width: 768px) {
+		padding-left: 90px;
+		font-size: 24px;
+	}
+	@media screen and (min-width: 1920px) {
+		padding-left: 135px;
+		font-size: 36px;
+		
+		&.revers {
+			transform: rotate(-90deg) translate(-265px, -300px);
+		}
+	}
 	&::after {
 		position: relative;
 		top: -6px;
@@ -165,6 +400,17 @@
 		width: 135px;
 		height: 3px;
 		background-color: $dark-smoke;
+		@media screen and (min-width: 768px) {
+			width: 135px;
+			height: 3px;
+			right: -120px;
+			@media screen and (min-width: 1920px) {
+				top: -10px;
+				right: -205px;
+				width: 135px;
+				height: 2px;
+			}
+		}
 	}
 }
 
@@ -179,6 +425,14 @@
 	margin: 0;
 	@include font('Roboto black', 900);
 	font-size: 16px;
+	@media screen and (min-width: 768px) {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	@media screen and (min-width: 1920px) {
+		margin-top: 10px;
+		font-size: 24px;
+	}
 	
 	&::after {
 		display: block;
@@ -187,24 +441,31 @@
 		width: 80px;
 		height: 2px;
 		background-color: $main-blue;
+		@media screen and (min-width: 768px) {
+			width: 105px;
+			height: 3px;
+		}
 	}
 }
 
 .we-can__item-desc {
 	font-weight: 600;
 	line-height: 24px;
+	@media screen and (min-width: 1920px) {
+		font-size: 16px;
+		margin: 0 auto;
+		width: 340px;
+	}
+	
 	& span {
 		font-weight: 400;
 		font-size: 12px;
+		@media screen and (min-width: 1920px) {
+			font-size: 14px;
+		}
 	}
 }
 
-.sign-up__submit {
-	@media screen and (min-width: 320px) {
-		width: 290px;
-		height: 55px;
-		font-size: 14px;
-	}
-}
+
 
 

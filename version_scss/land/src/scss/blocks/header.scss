@@ -9,16 +9,18 @@
 	@include font('Roboto Light', 400);
 	@media screen and (min-width: 768px) {
 		margin: 0 0 65px;
-		background: $dark-smoke url("../img/decor/hud-header-gray__768.png") no-repeat 117px 267px;
+		& .inner {
+			background: $dark-smoke url("../img/decor/hud-header-gray__768.png") no-repeat 117px 267px;
+		}
 	}
 	
 	@media screen and (min-width: 1920px) {
 		position: relative;
 		padding: 0 0 52px;
-		background: $dark-smoke url("../img/decor/hud-header-gray.png") no-repeat 0 74px;
 		
 		& .inner {
 			text-align: left;
+			background: $dark-smoke url("../img/decor/hud-header-gray.png") no-repeat 0 74px;
 		}
 	}
 	& header {
