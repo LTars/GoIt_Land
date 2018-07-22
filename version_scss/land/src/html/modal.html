@@ -1,0 +1,30 @@
+<section class="modal">
+	<div class="modal__inner">
+		<h2 class="modal__title">Запишитесь на курс</h2>
+		<form class="sign-up" action="#" method="post">
+			<ul class="sign-up__list">
+				<li class="sign-up__item">
+					<label class="sign-up__label">Имя:
+						<input class="sign-up__fill" type="text" name="username" title="username" required></label>
+				</li>
+				<li class="sign-up__item">
+					<label class="sign-up__label">Телефон:
+						<input class="sign-up__fill" type="tel" name="number" title="number" required></label>
+				</li>
+				<li class="sign-up__item">
+					<label class="sign-up__label">E-mail:
+						<input class="sign-up__fill" type="email" name="e-mail" title="e-mail" required></label>
+				</li>
+				<li class="sign-up__item">
+					<input class="sign-up__fill visually-hidden" id="sign-up__agreement" type="checkbox" name="agreement" title="agreement" required checked>
+					<label class="sign-up__label" for="sign-up__agreement">
+						Принимаю договор <a href="#" class="sign-up__link">оферты</a> и<br>
+						даю согласие на обработку моих<br>
+						<a href="#" class="sign-up__link">персональных данных</a><br>
+					</label>
+				</li>
+			</ul>
+			<button class="sign-up__submit" type="submit">Начать обучение на курсе</button>
+		</form>
+	</div>
+</section>

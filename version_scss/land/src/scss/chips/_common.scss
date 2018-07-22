@@ -1,24 +1,39 @@
-@include reset();
-
-.container {
-    @include container();
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position:    absolute;
+    width:       1px;
+    height:      1px;
+    margin:      -1px;
+    border:      0;
+    padding:     0;
+    white-space: nowrap;
+    clip-path:   inset(100%);
+    clip:        rect(0 0 0 0);
+    overflow:    hidden;
 }
 
-.row {
-    @include row-flex();
+.inner {
+    box-sizing: border-box;
+    margin:     0 auto;
+    padding:    0 15px;
+    width:      320px;
+    @media screen and (min-width: 768px){
+        padding: 0;
+        width: 721px;
+    }
+    
+    @media screen and (min-width: 1920px) {
+        width: 1900px;
+    }
 }
 
-.item {
-    @include col();
+.list {
+    margin:     0;
+    padding:    0;
+    list-style: none;
 }
 
-
-@mixin font-mixin($f-family, $f-size, $color) {
-    font-family: $f-family;
-    font-size: $f-size;
-    color: $color;
-}
-
-.flex {
-    display: flex;
+.revers {
+    transform: rotate(-90deg);
 }
