@@ -1,21 +1,36 @@
 /*
    Import partials below
 */
-@import 'helper/fonts';
-@import 'helper/variables';
-@import 'helper/placeholder';
-@import 'helper/mixin';
-@import 'normalize';
-@import 'base.scss';
 
+@import "normalize";
+@import "chips/fonts";
+@import "chips/common";
+@import "chips/colors";
+@import "chips/variables";
 
+/*
+	Import sections below
+*/
 
-
-
-// section
-
-    @import 'section/we-give-a-guarantee';
-    @import 'section/learning-center';
-    @import 'section/our-mentors';
-    @import 'section/video-reviews';
-    
+@import "section/0-modal";
+@import "section/01-header";
+@import "section/02-switch";
+@import "section/03-we-can";
+@import "section/04-whats-include";
+@import "section/05-soft-skills";
+@import "section/06-learning-format";
+@import "section/07-safe-way";
+@import "section/08-profession";
+@import "section/09-we-give-a-guarantee";
+@import "section/10-learning-center";
+@import "section/11-our-mentors";
+@import "section/12-video-reviews";
+@import "section/13-reviews";
+@import "section/14-price";
+@import "section/15-whats-diff";
+@import "section/16-what-receives";
+@import "section/17-faq";
+@import "section/18-how-to-know";
+@import "section/19-what-if-you-dont";
+@import "section/20-become-strong-jun";
+@import "section/21-footer";

@@ -2,8 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8bb7254-f06c-4814-8e62-9597772fa4f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/smartgrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_css/land/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_css/land/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_css/land/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_css/thanks/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_css/thanks/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_css/thanks/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/css/styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/fonts/opensans-extrabold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/fonts/opensans-semibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/fonts/ubuntumono-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/fonts/ubuntumono-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-company-desc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-company-tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-goal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-grade-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-grade-1@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-grade-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-grade-2@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-grade-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-grade-3@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-guarantee-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-list-perspective-desk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-list-perspective.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-mentors-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-mentors-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-min-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-more-appreciated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-reviews-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-reviews-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/bg/bg-video-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/card-foto/foto-mentor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/card-foto/foto-mentor@1-5x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/card-foto/foto-mentor@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/card-foto/foto-mentor@3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/Luxoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/Luxoft@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/Luxoft@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/Luxoft@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/Luxoft@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/alfabank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/alfabank@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/alfabank@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/alfabank@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/alfabank@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/crytek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/crytek@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/crytek@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/crytek@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/crytek@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/grade-1@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/infopulse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/infopulse@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/infopulse@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/infopulse@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/infopulse@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/innovecs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/innovecs@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/innovecs@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/innovecs@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/innovecs@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/terrasoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/terrasoft@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/terrasoft@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/terrasoft@3X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/company-logo/terrasoft@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-1@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-1@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-1@tab2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-2@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-3@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-3@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-3@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-3@tab2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/grade/grade-3@tab3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/list/dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/list/elips.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-1@desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-1@tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-2@desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-2@tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-3@desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/img/video-foto/video-3@tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/fonts/opensans-extrabold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/fonts/opensans-semibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/fonts/ubuntumono-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/fonts/ubuntumono-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/learning-center.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/learning-center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/our-mentors.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/our-mentors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/we-give-a-guarantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/we-give-a-guarantee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-company-desc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-company-tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-goal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-grade-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-grade-1@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-grade-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-grade-2@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-grade-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-grade-3@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-guarantee-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-list-perspective-desk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-list-perspective.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-mentors-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-mentors-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-min-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-more-appreciated.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-reviews-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-reviews-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/bg/bg-video-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/card-foto/foto-mentor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/card-foto/foto-mentor@1-5x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/card-foto/foto-mentor@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/card-foto/foto-mentor@3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/Luxoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/Luxoft@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/Luxoft@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/Luxoft@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/Luxoft@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/alfabank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/alfabank@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/alfabank@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/alfabank@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/alfabank@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/crytek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/crytek@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/crytek@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/crytek@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/crytek@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/grade-1@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/infopulse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/infopulse@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/infopulse@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/infopulse@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/infopulse@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/innovecs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/innovecs@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/innovecs@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/innovecs@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/innovecs@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/terrasoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/terrasoft@1-5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/terrasoft@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/terrasoft@3X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/company-logo/terrasoft@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-1@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-1@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-1@tab2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-2@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-3@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-3@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-3@tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-3@tab2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/grade/grade-3@tab3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/list/dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/list/elips.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-1@desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-1@tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-2@desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-2@tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-3@desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/img/video-foto/video-3@tab.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/helper/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/helper/mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/helper/placeholder.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/helper/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/learning-center.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/our-mentors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/we-give-a-guarantee.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,38 +215,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="396">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="154">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -67,6 +250,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/version_scss/land/build/index.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/index.html" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" />
       </list>
     </option>
   </component>
@@ -85,9 +270,9 @@
       <path value="$PROJECT_DIR$/version_scss/thanks/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2158" />
+    <option name="y" value="59" />
     <option name="width" value="1691" />
     <option name="height" value="1000" />
   </component>
@@ -106,11 +291,6 @@
             <path>
               <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
               <item name="version_scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -125,23 +305,6 @@
               <item name="version_scss" type="462c0819:PsiDirectoryNode" />
               <item name="land" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
-              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
-              <item name="land" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="chips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,17 +345,17 @@
       <workItem from="1526038447829" duration="33000" />
       <workItem from="1526063343619" duration="804000" />
       <workItem from="1526205463532" duration="533000" />
+      <workItem from="1532301088799" duration="1482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6720000" />
+    <option name="totallyTimeSpent" value="8202000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="2158" y="59" width="1691" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26324326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30903426" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -220,6 +383,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -260,6 +451,16 @@
     <entry file="file://$PROJECT_DIR$/version_scss/src/html/land_mob.html" />
     <entry file="file://$PROJECT_DIR$/version_scss/src/index.html" />
     <entry file="file://$PROJECT_DIR$/version_scss/build/index.html" />
+    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1" column="7565" selection-start-line="1" selection-start-column="7565" selection-end-line="1" selection-end-column="7565" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/styles.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -267,24 +468,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="2310">
+          <caret line="86" column="118" selection-start-line="86" selection-start-column="118" selection-end-line="86" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/build/index.html">
+    <entry file="file://$PROJECT_DIR$/version_scss/land/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        <state relative-caret-position="-1919">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="396">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
