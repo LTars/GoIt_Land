@@ -37,3 +37,10 @@ input[type="radio"].visually-hidden {
 .revers {
     transform: rotate(-90deg);
 }
+
+.title_span {
+    display: inline-block;
+    width: 16px;
+    height: 4px;
+    background-color: $main-blue;
+}

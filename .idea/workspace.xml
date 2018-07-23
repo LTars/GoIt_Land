@@ -3,24 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="d8bb7254-f06c-4814-8e62-9597772fa4f0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/learning-center.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/learning-center.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/our-mentors.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/our-mentors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/switch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/reviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/we-can.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/we-can.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/we-give-a-guarantee.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/we-give-a-guarantee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/whats-include.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/whats-include.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/what-receives.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/what-receives.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/html/whats-diff.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/html/whats-diff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/learning-center.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/learning-center.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/our-mentors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/our-mentors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/switch.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/reviews.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/we-can.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/we-can.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/we-give-a-guarantee.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/we-give-a-guarantee.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/what-receives.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/what-receives.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/section/whats-diff.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/section/whats-diff.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +29,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="we-give-a-guarantee.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/we-give-a-guarantee.html">
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-reviews.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/reviews.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/reviews.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#4848#4854#0" expanded="true" />
+                <element signature="e#4924#4930#0" expanded="true" />
+                <element signature="e#4931#4937#0" expanded="true" />
+                <element signature="e#5035#5041#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-reviews.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="placeholder.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,6 +141,12 @@
       <find>include wrapper</find>
       <find>before-hr</find>
       <find>img/</find>
+      <find>/lara</find>
+      <find>f9f9f9</find>
+      <find>fafafa</find>
+      <find>reviews</find>
+      <find>&quot;reviews</find>
+      <find>.reviews</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -66,9 +155,13 @@
       <replace>Roboto</replace>
       <replace>nt('Roboto</replace>
       <replace>img/vova/</replace>
+      <replace>video-reviews</replace>
+      <replace>&quot;video-reviews</replace>
+      <replace>.video-reviews</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Tars\allit\GoIt_Land\version_scss\land\src\scss</dir>
+      <dir>D:\Tars\allit\GoIt_Land\version_scss\land</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -85,29 +178,29 @@
         <option value="$PROJECT_DIR$/version_scss/build/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/version_scss/land/build/index.html" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/index.html" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/we-can.scss" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/switch.scss" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/learning-center.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/our-mentors.scss" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/we-give-a-guarantee.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/base.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/modal.scss" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/learning-center.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/our-mentors.html" />
-        <option value="$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/we-give-a-guarantee.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/we-can.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/switch.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/modal.html" />
         <option value="$PROJECT_DIR$/version_scss/land/src/html/whats-include.html" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html" />
+        <option value="$PROJECT_DIR$/version_scss/land/src/index.html" />
       </list>
     </option>
   </component>
@@ -184,6 +277,15 @@
               <item name="land" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="chips" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoIt_Land" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoIt_Land" type="462c0819:PsiDirectoryNode" />
+              <item name="version_scss" type="462c0819:PsiDirectoryNode" />
+              <item name="land" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="section" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -232,12 +334,12 @@
       <workItem from="1526038447829" duration="33000" />
       <workItem from="1526063343619" duration="804000" />
       <workItem from="1526205463532" duration="533000" />
-      <workItem from="1532301088799" duration="6417000" />
+      <workItem from="1532301088799" duration="9171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13137000" />
+    <option name="totallyTimeSpent" value="15891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2158" y="59" width="1691" height="1000" extended-state="0" />
@@ -371,62 +473,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/reviews.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -457,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/we-can.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -489,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -554,6 +590,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/placeholder.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/chips/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/video-reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/video-reviews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/scss/section/reviews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/html/reviews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#4848#4854#0" expanded="true" />
+            <element signature="e#4924#4930#0" expanded="true" />
+            <element signature="e#4931#4937#0" expanded="true" />
+            <element signature="e#5035#5041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/version_scss/land/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,9 @@
-.reviews {
+.video-reviews {
 	@media (min-width: 768px) {
 		transform: translateY(-149px);
 	}
 	@media (min-width: 1250px) {
-		background: url(../img/vova/bg/bg-reviews-desc.png) no-repeat 930px 10px;
+		background: url(../img/vova/bg/bg.video-reviews-desc.png) no-repeat 930px 10px;
 	}
 	&__wrapper {
 		@include wrapper();
@@ -122,7 +122,7 @@
 	}
 }
 
-.after-title-reviews__list {
+.after-title-video.video-reviews__list {
 	@extend %list;
 	width: 269px;
 	margin: 0 auto;
@@ -136,7 +136,7 @@
 	}
 }
 
-.after-title-reviews__items {
+.after-title.video-reviews__items {
 	@extend %font-source;
 	font-weight: 900;
 	display: inline;
@@ -157,7 +157,7 @@
 	@media (min-width: 768px) {
 		width: 48%;
 		padding: 108px 0 67px 10px;
-		background: url(../img/vova/bg/bg-reviews-tab.png) no-repeat right;
+		background: url(../img/vova/bg/bg.video-reviews-tab.png) no-repeat right;
 		background-position-y: -21px;
 		margin: 0;
 	}

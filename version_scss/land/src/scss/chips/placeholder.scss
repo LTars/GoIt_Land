@@ -14,6 +14,19 @@
 	border: none;
 }
 
+%button-lara {
+	border: none;
+	margin: 0 auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: block;
+}
+
+%content {
+	display: block;
+	margin: 0 auto;
+}
+
 %font-source {
 	font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +35,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+%gradient {
+	background-image: linear-gradient(90deg, #ffc517 0%, #fb0640 100%);
+	box-shadow: 0px 12px 20px rgba(28, 28, 30, 0.21);
 }
 
 %h2 {
@@ -54,6 +72,30 @@
 %link {
 	text-decoration: none;
 	display: inline-block;
+}
+
+%paragraph {
+	margin: 0;
+	padding: 0;
+}
+
+%pseudo {
+	content: '';
+	display: block;
+}
+
+%par_font {
+	font-family: $main-font;
+	font-size: 14px;
+	color: $white;
+}
+
+%title {
+	font-family: $title-font;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
 }
 
 %text-after-h2 {

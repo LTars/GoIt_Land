@@ -1,0 +1,548 @@
+.price {
+  padding: 74px 6px 60px;
+  background-color: $section14-backgroundsm;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    padding: 117px 40px 60px;
+    background-color: $section14-backgroundmid;
+    position: relative;
+    z-index: 1;
+    &::before {
+      content: '';
+      width: 100%;
+      height: 20%;
+      background-color: $section14-overlaycolor;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      z-index: -1;
+    }
+  }
+  @media (min-width: 1150px) {
+    padding: 300px 0px 110px;
+    background-image: url('../../img/lara/14-price_backgr.jpg');
+    background-repeat: no-repeat;
+    // background-color: $section14-backgroundlg;
+   
+    // position: relative;
+    // opacity: 0.9;
+    // z-index: 1;
+    // &::before {
+    //   content: '';
+    //   display: block;
+    //   width: 100%;
+    //   height: 32%;
+    //   background-color: $sect14-overlaylgcolor;
+      
+    //   position: absolute;
+    //   bottom: 0px;
+    //   z-index: -1;
+    // }
+  }
+}
+
+.price_main_title {
+  @extend %title;
+  width: 294px;
+  font-size: 24px;
+  line-height: 30px;
+  color: $white;
+  text-align: center;
+  margin-bottom: 14px;
+  &::after {
+    @extend %pseudo;
+    width: 150px;
+    height: 3px;
+    background-color: $white;
+    margin: 0 auto;
+    margin-top: 11px;
+  }
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 530px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    &::after {
+      display: none;
+    }
+  }
+  @media (min-width: 1149px) {
+    width: 740px;
+    font-size: 42px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 44px;
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.price_title_paragraph,
+.price_title_descr {
+  @extend %paragraph;
+  @extend %par_font;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.price_title_paragraph {
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    display: block;
+    margin: 0 auto;
+    width: 318px;
+ 
+    font-family: $title-font;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: right;
+    margin-bottom: 45px;
+    &::after {
+      content: '';
+      display: block;
+      width: 318px;
+      height: 2px;
+      background-color: $white;
+    }
+  }
+  @media (min-width: 1149px) {
+    width: 400px;
+    font-family: $title-font;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    &::after {
+      content: '';
+      display: block;
+      width: 400px;
+      height: 4px;
+      background-color: $white;
+    }
+  }
+}
+
+.price_title_descr {
+  @extend %content;
+ 
+  width: 278px;
+  line-height: 24px;
+
+  margin-bottom: 30px;
+  font-weight: 700;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 690px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 1149px) {
+    width: 1150px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+.price_title_span {
+  color: $main-blue;
+}
+
+.price_paragraph_span {
+  text-transform: none;
+  font-weight: 400;
+}
+
+.price_term_descr {
+  @extend %paragraph;
+  @extend %content;
+  text-align: center;
+  width: 291px;
+  height: 65px;
+  box-shadow: 0px 20px 36px rgba(0, 0, 0, 0.3);
+  background-color: $section14-descrparcolor;
+  font-size: 16px;
+  line-height: 60px;
+  color: $white;
+  font-family: $title-font;
+  margin-bottom: 20px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 690px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  @media (min-width: 1149px) {
+    width: 1150px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}
+
+.price_list {
+  @extend %list;
+  width: 291px;
+  background-color: $section14-priceseccolor;
+  margin: 0 auto;
+  margin-bottom: 44px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    display: flex;
+    width: 690px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 1149px) {
+    width: 1150px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-bottom: 56px;
+  }
+}
+
+.price_list_item {
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+  padding-bottom: 40px;
+  &:not(:nth-last-child(-n+1)) {
+    margin-bottom: 18px;
+  }
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 327px;
+    background-color: $section14-priceseccolor;
+    &:not(:nth-last-child(-n+1)) {
+      margin-bottom: 0px;
+    }
+    &:not(:nth-last-child(-n+2)) {
+      margin-bottom: 36px;
+    }
+  }
+  @media (min-width: 1149px) {
+    width: 557px;
+    background-color: $section14-priceseccolor;
+    &:not(:nth-last-child(-n+1)) {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.price_list_item_title {
+  @extend %paragraph;
+  @extend %content;
+  text-align: center;
+  font-family: $main-font;
+  font-size: 16px;
+  line-height: 24px;
+  color: $white;
+  font-weight: 700px;
+  width: 288px;
+  height: 84px;
+  padding: 20px 34px 20px;
+  background-color: $section14-pricelititle;
+  margin-bottom: 40px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 326px;
+  }
+  @media (min-width: 1149px) {
+    width: 557px;
+    height: 110px;
+    padding: 30px 80px;
+    font-size: 22px;
+    line-height: 26px;
+    border-bottom: 1px solid $sect14-pricelistitemborder;
+    margin-bottom: 28px;
+  }
+}
+
+.price_list_item_title--offline {
+  @media (min-width: 1149px) {
+    background-color: $sect14-pricelistitemcol;
+  }
+}
+
+.price_main_span {
+  color: $main-blue;
+  font-weight: 700;
+}
+
+.price_services_list {
+  @extend %list;
+  text-align: center;
+  margin-bottom: 25px;
+  @media (min-width: 1149px) {
+    margin-bottom: 36px;
+  }
+}
+
+.price_services_list_item {
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 24px;
+  color: $section14-pricelistpar;
+  &:not(:nth-last-child(-n+1)) {
+    margin-bottom: 11px;
+  }
+  @media (min-width: 1149px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.price_services_descr {
+  @extend %paragraph;
+  @extend %par_font;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  @media (min-width: 1149px) {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 346px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+}
+
+.price_target {
+  @extend %paragraph;
+  @extend %par_font;
+  @extend %content;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 26px;
+  font-weight: 700;
+  width: 169px;
+  height: 36px;
+  margin: 0 auto;
+  border: 1px solid $white;
+  line-height: 36px;
+  position: relative;
+  margin-bottom: 38px;
+  &::before {
+    @extend %pseudo;
+    position: absolute;
+    width: 45px;
+    border: 3px solid $section14-priceseccolor;
+    top: -5px;
+    left: 20px;
+  }
+  &::after {
+    @extend %pseudo;
+    position: absolute;
+    width: 70px;
+    border: 3px solid $section14-priceseccolor;
+    bottom: -5px;
+    left: 80px;
+  }
+  @media (min-width: 1149px) {
+    margin-bottom: 28px;
+  }
+}
+
+.price_target_list {
+  @extend %list;
+  margin-bottom: 36px;
+}
+
+.price_target_list_item {
+  @extend %content;
+  width: 268px;
+  height: 65px;
+  background-color: $section14-targetlistitem;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.14);
+  text-align: left;
+  padding: 20px 10px 0;
+  font-family: $secondary-font;
+  font-size: 14px;
+  color: $section14-pricelistpar;
+  &:not(:nth-last-child(-n+1)) {
+    margin-bottom: 10px;
+  }
+  @media (min-width: 1149px) {
+    width: 502px;
+    font-size: 18px;
+    padding-left: 25px;
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 1px;
+      background-color: $main-blue;
+      position: absolute;
+      left: -40px;
+      top: 33px;
+    }
+  }
+}
+
+.price_online,
+.price_offline {
+  @extend %paragraph;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: $title-font;
+  text-align: center;
+  margin-bottom: 20px;
+  @media (min-width: 1149px) {
+    margin-bottom: 36px;
+    font-size: 50px;
+  }
+}
+
+.price_online {
+  color: #ffc600;
+}
+
+.price_offline {
+  color: #5cc497;
+}
+
+.price_button {
+  @extend%button-lara;
+  width: 242px;
+  height: 55px;
+  border-radius: 5px;
+  @extend %gradient;
+  font-family: $title-font;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: $white;
+  margin: 0 auto;
+  @media (min-width: 1149px) {
+    width: 318px;
+    height: 70px;
+    font-size: 20px;
+    box-shadow: 0px 1px 1px rgba(28, 28, 30, 0.32);
+  }
+}
+
+.price_payment_paragraph {
+  @extend %par_font;
+  @extend %content;
+  text-align: center;
+  font-weight: 700;
+  width: 174px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    width: 338px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  @media (min-width: 1149px) {
+    font-size: 18px;
+    width: 390px;
+    margin-bottom: 15px;
+  }
+}
+
+.price_payment_list {
+  @extend %list;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    display: flex;
+  }
+  @media (min-width: 1149px) {
+    display: flex;
+    width: 1150px;
+    margin: 0 auto;
+  }
+}
+
+.price_payment_item {
+  @extend %par_font;
+  @extend %content;
+  text-align: center;
+  position: relative;
+  width: 292px;
+  height: 116px;
+  padding-top: 20px;
+  background-color: $section14-paymentitemcolor;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+  &:not(:nth-last-child(-n+1)) {
+    border-bottom: 1px solid $sect14-paymitembottomborder;
+  }
+  &::before {
+    @extend %pseudo;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) and (max-width: 1149px) {
+    font-size: 16px;
+    text-transform: uppercase;
+    &:not(:nth-last-child(-n+1)) {
+      border-bottom: 1px solid transparent;
+    }
+    &:not(:last-child) {
+      border-right: 1px solid $sect14-paymitembottomborder;
+    }
+    
+  }
+  @media (min-width: 1149px) {
+    width: 376px;
+    height: 120px;
+    font-size: 18px;
+    padding-top: 30px;
+    &:not(:last-child) {
+      border-right: 1px solid $sect14-paymitembottomborder;
+    }
+    &:not(:nth-last-child(-n+1)) {
+      border-bottom: 1px solid transparent;
+    }
+    &::before {
+      position: absolute;
+      left: 40px;
+      top: 40px;
+    }
+  }
+}
+
+.price_payment_item--wallet::before {
+  background-image: url('../../img/lara/icons/wallet-svg.svg');
+}
+
+.price_payment_item--card::before {
+  background-image: url('../../img/lara/icons/credit-card-svg.svg');
+}
+
+.price_payment_item--rich::before {
+  background-image: url('../../img/lara/icons/rich-svg.svg');
+}
+
+.price_payment_item--rich::after {
+  @extend %pseudo;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../img/lara/icons/stopwatch-svg-svg.svg');
+  position: absolute;
+  top: 23px;
+  left: 105px;
+  @media (min-width: 768px) and (max-width: 1149px) {
+    left: 70px;
+  }
+  @media (min-width: 1149px) {
+    left: 15px;
+    top: 35px;
+  }
+}
