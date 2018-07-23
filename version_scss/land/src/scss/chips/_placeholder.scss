@@ -22,6 +22,13 @@
 	display: block;
 }
 
+%button-orch {
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
 %content {
 	display: block;
 	margin: 0 auto;
@@ -52,10 +59,16 @@
 	}
 }
 
+%img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 %list {
-	list-style: none;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 %list-before {
@@ -70,8 +83,8 @@
 }
 
 %link {
-	text-decoration: none;
 	display: inline-block;
+	text-decoration: none;
 }
 
 %paragraph {
