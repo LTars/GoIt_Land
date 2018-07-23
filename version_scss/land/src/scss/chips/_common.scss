@@ -147,3 +147,28 @@ input[type="radio"].visually-hidden {
 		margin: 5px 0 5px auto;
 	}
 }
+
+.input-olek {
+	height: 40px;
+}
+
+.form-olek {
+	display: flex;
+	justify-content: right;
+}
+
+.img-olek {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.learning-format *,
+.profession *,
+.safe-way_section *,
+.soft-skils * {
+	box-sizing: inherit;
+	font-family: $main-font-txt;
+	margin: 0px;
+	padding: 0px;
+}
