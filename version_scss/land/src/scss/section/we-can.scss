@@ -183,7 +183,7 @@
 .we-can__title {
 	margin: 0;
 	text-transform: uppercase;
-	@include font('Roboto black', 900);
+	@include font('Roboto', 900);
 	font-size: 25px;
 	
 	&::before {
@@ -237,7 +237,7 @@
 .we-can__title--ext {
 	text-transform: uppercase;
 	line-height: 24px;
-	@include font('Roboto black', 900);
+	@include font('Roboto', 900);
 	
 	& span {
 		color: $main-blue;
@@ -426,7 +426,7 @@
 .we-can__item-title {
 	text-transform: uppercase;
 	margin: 0;
-	@include font('Roboto black', 900);
+	@include font('Roboto', 900);
 	font-size: 16px;
 	@media screen and (min-width: 768px) {
 		font-size: 18px;

@@ -3,10 +3,12 @@
 */
 
 @import "normalize";
+@import "base";
 @import "chips/fonts";
 @import "chips/common";
 @import "chips/colors";
 @import "chips/variables";
+@import "chips/placeholder";
 
 /*
 	Import sections below
@@ -17,18 +19,22 @@
 @import "section/switch";
 @import "section/we-can";
 @import "section/whats-include";
+
 @import "section/soft-skills";
 @import "section/learning-format";
 @import "section/safe-way";
 @import "section/profession";
+
 @import "section/we-give-a-guarantee";
 @import "section/learning-center";
 @import "section/our-mentors";
 @import "section/video-reviews";
+
 @import "section/reviews";
 @import "section/price";
 @import "section/whats-diff";
 @import "section/what-receives";
+
 @import "section/faq";
 @import "section/how-to-know";
 @import "section/what-if-you-dont";

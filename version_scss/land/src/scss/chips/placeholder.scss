@@ -1,0 +1,69 @@
+%after-h2 {
+	content: '';
+	display: inline-block;
+	width: 150px;
+	height: 2px;
+	margin: 10px auto;
+	background: $main-blue;
+}
+
+%button {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+%font-source {
+	font-family: 'Roboto', sans-serif;
+}
+
+%flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+%h2 {
+	font: 900 25px 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.2;
+	& > span {
+		color: $main-blue;
+	}
+}
+
+%list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+%list-before {
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/vova/list/dot.png) center no-repeat;
+	position: absolute;
+	left: 0;
+	top: -5px;
+}
+
+%link {
+	text-decoration: none;
+	display: inline-block;
+}
+
+%text-after-h2 {
+	font-weight: 900;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.5;
+}
+
+%text-perspective {
+	font: 800 20px 'Ubuntu Mono', monospace;
+}
