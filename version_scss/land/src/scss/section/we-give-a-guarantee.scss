@@ -32,6 +32,7 @@
 
 .give-guarantee__title {
 	@extend %h2;
+	margin-bottom: 60px;
 	color: $white;
 	&::after {
 		@extend %after-h2;
@@ -84,6 +85,7 @@
 	@extend %text-perspective;
 	line-height: 1.3;
 	margin: 0 auto;
+	margin-bottom: 40px;
 	@media (min-width: 768px) {
 		width: 585px;
 		height: 33px;
@@ -160,6 +162,10 @@
 	}
 	&:not(:last-child) {
 		margin-bottom: 40px;
+		@media (min-width: 300px) and (max-width:768px){
+			width: 213px;
+		}
+		
 		@media (min-width: 768px) {
 			margin: 0 50px 0 0;
 		}
@@ -181,6 +187,7 @@
 	background: $bg-color-appreciated;
 	color: $text-color-perspective;
 	box-sizing: border-box;
+	line-height: 1.5;
 	@media (min-width: 768px) {
 		width: 572px;
 		margin: 0 auto;
@@ -212,6 +219,10 @@
 	}
 	&__text {
 		margin-bottom: 60px;
+		line-height: 1.8;
+		@media (min-width:768px) {
+			width: 448px;
+		}
 		@media (min-width: 1250px) {
 			margin-bottom: 38px;
 		}
@@ -337,7 +348,7 @@
 .bg__text--right {
 	font-size: 20px;
 	right: -40px;
-	top: 116px;
+	top: 138px;
 	@media (min-width: 1250px) {
 		font-size: 26px;
 		top: 207px;

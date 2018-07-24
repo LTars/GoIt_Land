@@ -2,7 +2,7 @@
 .training-center__bg {
 	background: url(../img/vova/bg/bg-10.jpg);
 	box-sizing: border-box;
-	padding: 60px 0 50px 0;
+	padding: 84px 0 50px 0;
 	position: relative;
 	@media (min-width: 768px) {
 		background: url(../img/vova/bg/bg-company-tab.jpg);
@@ -49,10 +49,11 @@
 }
 
 .training-center {
-	
+	line-height: 1.5;
 	&__title {
 		@extend %h2;
 		color: $h2-learning-color;
+		margin-bottom: 20px;
 		@media (min-width: 768px) {
 			font-size: 29px;
 			margin-bottom: 40px;
@@ -131,14 +132,15 @@
 			height: 405px;
 			left: -11px;
 			top: 8px;
-			@media (min-width: 1250px) {
-				left: -98px;
-				top: 33px;
-			}
+			
 		}
 	}
 	@media (min-width: 1250px) {
 		padding-left: 0;
+		&::before {
+			left: -98px;
+				top: 33px;
+		}
 	}
 }
 
@@ -172,6 +174,23 @@
 	@media (min-width: 768px) {
 		padding-left: 96px;
 		max-width: 450px;
+		&--first-span{
+			@media (max-width: 1250px) {
+				&::after{
+					content: '';
+					display: inline-block;
+					position: absolute;
+					width: 287px;
+					height: 2px;
+					top: 22px;
+					left: 146px;
+					background: #73B2B7;
+					
+				}
+			}
+		
+		
+		}
 		&::after {
 			content: '';
 			display: inline-block;
@@ -180,15 +199,15 @@
 			height: 1px;
 			background: #595959;
 			left: 11px;
-			top: 15px;
-			@media (min-width: 1250px) {
-				left: -75px;
-				top: 38px;
-			}
+			top: 15px;	
 		}
 	}
 	@media (min-width: 1250px) {
 		padding-left: 0;
+		&::after{
+			left: -75px;
+			top: 38px;
+		}
 	}
 	
 	&::before {
@@ -315,7 +334,7 @@
 	}
 	&__title {
 		text-align: center;
-		width: 170px;
+		width: 175px;
 		margin: 0 auto;
 		text-transform: uppercase;
 		@extend %font-source;
@@ -380,8 +399,8 @@
 				width: 299px;
 				display: inline-block;
 				position: relative;
-				left: 230px;
-				top: -41px;
+				left: 93px;
+				top: -10px;
 			}
 			.our-pride__text {
 				max-width: 326px;
@@ -460,11 +479,17 @@
 		font: 600 18px 'Ubuntu mono', monospace;
 		color: $main-blue;
 		background: $header-color;
+		text-align: center;
+		padding-top: 2px;
+		box-sizing: border-box;
 		@media (min-width: 768px) {
 			position: relative;
 			transform: rotate(90deg);
 			top: 78px;
 			left: -47px;
+			&--first{
+				top: 18px;
+			}
 		}
 	}
 	&__subtitle {
@@ -479,6 +504,7 @@
 		justify-content: flex-end;
 		height: 248px;
 		@media (min-width: 768px) {
+			padding-top: 60px;
 			justify-content: space-between;
 		}
 		

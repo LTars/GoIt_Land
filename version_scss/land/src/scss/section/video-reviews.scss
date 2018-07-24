@@ -86,7 +86,10 @@
 	}
 	&__text {
 		font: 700 18px 'Ubuntu Mono' monospace;
-		color: $header-color;
+        color: $header-color;
+        background: url(../img/vova/bg/bg-video-text.png) no-repeat bottom;
+		background-position: 183px 37px;
+        margin-bottom: 60px;
 		@media (min-width: 768px) {
 			line-height: 1.5;
 			width: 298px;
@@ -122,7 +125,7 @@
 	}
 }
 
-.after-title-video.video-reviews__list {
+.after-title-video-reviews__list {
 	@extend %list;
 	width: 269px;
 	margin: 0 auto;
@@ -136,7 +139,7 @@
 	}
 }
 
-.after-title.video-reviews__items {
+.after-title-video-reviews__items {
 	@extend %font-source;
 	font-weight: 900;
 	display: inline;
@@ -153,19 +156,32 @@
 .video-review__list {
 	@extend %list;
 	margin-bottom: 65px;
-	box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    
 	@media (min-width: 768px) {
 		width: 48%;
 		padding: 108px 0 67px 10px;
-		background: url(../img/vova/bg/bg.video-reviews-tab.png) no-repeat right;
+		background: url(../img/vova/bg/bg-reviews-tab.png) no-repeat right;
 		background-position-y: -21px;
 		margin: 0;
 	}
 	@media (min-width: 1250px) {
-		background: none;
+        background: none;
 		width: 60%;
-		height: 1005px;
-		padding: 108px 0 67px 0;
+        padding: 108px 0 67px 0;
+        z-index: 200;
+        &::before{
+            content: '';
+            position: absolute;
+            display: inline-block;
+            width: 728px;
+            height: 1005px;
+            background: url(../img/vova/bg/bg-reviews-desc.png) no-repeat center;
+            z-index: -1;
+            top: 0px;
+            right: -185px;
+        }
 	}
 }
 

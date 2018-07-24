@@ -2,13 +2,14 @@
 	background: url(../img/vova/bg/bg-10.jpg);
 	padding-top: 170px;
 	position: relative;
-	transform: translateY(-120px);
+    transform: translateY(-120px);
+    line-height: 1.5;
 	z-index: 100;
 	@media (min-width: 768px) {
 		background: url(../img/vova/bg/bg-mentors-tab.png);
 		background-repeat: no-repeat;
-		padding-top: 280px;
-		transform: translateY(-159px);
+		padding-top: 270px;
+		transform: translateY(-180px);
 	}
 	@media (min-width: 1250px) {
 		background: url(../img/vova/bg/bg-mentors-desc.png) no-repeat -205px 0px;
@@ -331,5 +332,8 @@
 		height: 70px;
 		right: 311px;
 		bottom: -38px;
-	}
+    }
+    &:hover{
+        cursor: pointer;
+    }
 }
